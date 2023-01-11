@@ -1,17 +1,25 @@
 $primary: #5879BC
+$primary-border: 1px solid #5879BC
+$primary-hover: #4966a1
+$primary-border-hover: 1px solid #4966a1
+$shadow: 0 .3rem 0.3rem rgba(0,0,0,.15)!important
+
 $secondary: #FF7C5F
-$secondary-hover: #fc6543
+$secondary-border: 1px solid #FF7C5F
+$secondary-hover:  #f8522d
+$secondary-border-hover: 1px solid  #f8522d
+
 $border-raius: 60px
 
 .btn-primary
     background-color: $primary
-    border: $primary
+    border: $primary-border
     border-radius: $border-raius
 
 .btn-primary:hover
-    background-color: $primary
-    border: $primary
-    border-radius: $border-raius
+    background-color: $primary-hover
+    border: $primary-border-hover
+    box-shadow: $shadow
 
 .btn-secondary
     background-color: $secondary
@@ -21,4 +29,16 @@ $border-raius: 60px
 .btn-secondary:hover
     background-color: $secondary-hover
     border: $secondary
+    box-shadow: $shadow
+
+.btn-outline-primary
+    background-color: white
+    color: $primary
+    border: $primary-border
     border-radius: $border-raius
+
+.btn-outline-primary:hover
+    background-color: $primary
+    color: white
+    border: $primary-border-hover
+    box-shadow: $shadow

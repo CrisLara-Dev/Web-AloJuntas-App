@@ -19,6 +19,15 @@
   font-weight: 900;
 }
 
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.my-6 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .color-text {
   color: #4F6168;
 }
@@ -94,14 +103,14 @@ body {
 
 .btn-primary {
   background-color: #5879BC;
-  border: #5879BC;
+  border: 1px solid #5879BC;
   border-radius: 60px;
 }
 
 .btn-primary:hover {
-  background-color: #5879BC;
-  border: #5879BC;
-  border-radius: 60px;
+  background-color: #4966a1;
+  border: 1px solid #4966a1;
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .btn-secondary {
@@ -111,18 +120,41 @@ body {
 }
 
 .btn-secondary:hover {
-  background-color: #fc6543;
+  background-color: #f8522d;
   border: #FF7C5F;
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-outline-primary {
+  background-color: white;
+  color: #5879BC;
+  border: 1px solid #5879BC;
   border-radius: 60px;
 }
 
-.font-weight-bold {
-  font-weight: bold;
+.btn-outline-primary:hover {
+  background-color: #5879BC;
+  color: white;
+  border: 1px solid #4966a1;
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
 }
 
-.my-5 {
-  margin-top: 6rem !important;
-  margin-bottom: 6rem !important;
+.niños {
+  width: 22rem;
+  height: 20rem;
+  border: 5px solid #FFC656;
+}
+
+.section2 {
+  background-color: #F3D391;
+}
+
+.rounded-4 {
+  border-radius: 1.5rem;
+}
+
+.benef {
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
 }
 
 /* Slider */
