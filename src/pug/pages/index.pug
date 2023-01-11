@@ -1,43 +1,36 @@
 extends ../layouts/default-layout.pug
 block content
-    <section class="mx-2">
+    <section class="my-5" >
         .container
             <div class="row">
                 <div class="col-md-7">
-                    h2 Te acompañamos en la crianza integral de tus hijos camino a la adolescencia
-                        hr
-                        <button class="btn btn-primary" type="submit">Regístrate gratis</button>
+                    h2.color-primary.font-weight-bold Te acompañamos en la crianza integral de tus hijos camino a la adolescencia
+                    a(href="mi-perfil.html").btn.btn-secondary.my-4.shadow 
+                        p.m-1.font-weight-bold Regístrate gratis
                 </div>
                 <div class="col-md-5 text-center">imagen</div>
             </div>
     </section>
-    hr
-    hr
-    hr
-    <section class="container">
+    <section class="container my-5">
         <div class="row">
             <div class="col-md-7">
-                h3 ¿Qué influye la crianza integral?
-                hr
-                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo cumque optio ipsa minus debitis vel dignissimos, voluptatibus pariatur eaque itaque odio totam ad magnam porro perspiciatis similique unde nihil ut?
+                h4.my-2.font-weight-bold ¿Qué influye la crianza integral?
+                p.fs-6 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo cumque optio ipsa minus debitis vel dignissimos, voluptatibus pariatur eaque itaque odio totam ad magnam porro perspiciatis similique unde nihil ut?
             </div>
             <div class="col-md-5 text-center">
-                title Explora los temas 
+                h5.font-weight-bold Explora los temas 
                 div grafico 
                 p ¡Pasa el cursor por los colores!
                 </div>
         </div>
     </section>
-    hr
-    hr
-    hr
-    <section class="container">
+    <section class="container my-5">
         <div class="text-center">
             h4 Explora contenido creado
-            h2 creado con profesionales
+            h2.font-weight-bold creado con profesionales
         </div>
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center my-4">
                 <div class="m-2 card col-6 col-md-4" style="width: 18rem;">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
@@ -72,15 +65,12 @@ block content
             <button class="m-2 btn btn-primary" type="submit">Regístrate gratis</button>
         </div>
     </section>
-    hr
-    hr
-    hr
-    <section class="container">
+    <section class="container my-5">
         <div class="text-center">
             h4 Nuestros beneficios
             h2 ¿Por qué utilizar Juntas App?
         </div>
-        <div class="container">
+        <div class="container my-4">
             <div class="row justify-content-center">
                 <div class="m-2 card col-6 col-md-4" style="width: 18rem;">
                     <img src="..." class="card-img-top" alt="...">
@@ -103,37 +93,67 @@ block content
             </div>
         </div>
     </section>
-    hr
-    hr
-    hr
-    <section class="container">
+    <section class="container my-5">
         <div class="row">
             <div class="col-md-6">
                 h3 ¡Empieza a informarte ahora!
-                hr
-                p Accede a nuestra versión gratuita donde encontrarás contenido valioso sin necesidad de pagar o dejar los datos de tu tarjeta
-                hr
+                p.my-4 Accede a nuestra versión gratuita donde encontrarás contenido valioso sin necesidad de pagar o dejar los datos de tu tarjeta
                 <button class="btn btn-outline-primary" type="submit">Regístrate gratis</button>
             </div>
             <div class="col-md-6 text-center">
-                <div class="col-md-5 text-center">imagen</div>
+                <div class="text-center">imagen</div>
             </div>
         </div>
     </section>
-    hr
-    hr
-    hr
-    <section class="container">
+    <section class="container my-5">
         <div class="row">
             <div class="col-md-6 text-center">
-                <div class="col-md-5 text-center">imagen</div>
+                <div class="text-center">imagen</div>
             </div>
             <div class="col-md-6">
-                h3 Nuestra versión Premium a S/.9.90 al mes
-                p Accede a contenido ilimitado 
-                p Guarda tus contenidos favoritos 
-                p Filtra por el perfil de tus hijas o hijos
+                <div class="my-5">
+                    h3.my-3 Nuestra versión Premium a S/.9.90 al mes
+                    p Accede a contenido ilimitado 
+                    p Guarda tus contenidos favoritos 
+                    p Filtra por el perfil de tus hijas o hijos
+                </div>
                 <button class="btn btn-primary" type="submit">Accede a Premium</button>
+            </div>
+        </div>
+    </section>
+    <section class="container my-5">
+        div.my-4
+            <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
+        div 
+            p Mejora el bienestas de tus colaboradoras, dándoles acceso a herramientas que fomenten el bienestar familiar.
+        <div class="row">
+            <div class="col-md-7">
+                <div class="m-2 my-5">
+                    div.d-md-flex.d-block
+                        div.col-md-6
+                            <div class="form-floating mb-3 m-2">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Ingrese tu nombre</label>
+                            </div>
+                        div.col-md-6
+                            <div class="form-floating mb-3 m-2">
+                                <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Nombre de empresa</label>
+                            </div>
+                    <div class="form-floating mb-3 m-2">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Ingresa tu correo electrónico</label>
+                    </div>
+                    <div class="form-floating mb-3 m-2">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Escribe tu mensaje</label>
+                    </div>
+                    div.justify-content-center.d-flex
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+            </div>
+            <div class="col-md-5 text-center">
+                <div class="text-center">imagen</div>
             </div>
         </div>
     </section>
