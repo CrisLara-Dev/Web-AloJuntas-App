@@ -58,12 +58,12 @@
   margin-bottom: 9rem;
 }
 
-.medio {
-  margin-top: -13rem;
-}
-
 .bg-white {
   background-color: #ffffff;
+}
+
+.bg-mora-bajo {
+  background-color: #B8CBF1;
 }
 
 .bg-mora {
@@ -71,7 +71,7 @@
 }
 
 .bg-naranja {
-  background-color: #E5483D;
+  background-color: #FF7C5F;
 }
 
 .bg-amarillo {
@@ -177,6 +177,12 @@ body {
   border-radius: 60px;
 }
 
+.btn-secondary:hover {
+  background-color: #f8522d;
+  border: #FF7C5F;
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
+}
+
 .btn-white {
   background-color: #ffffff;
   color: black;
@@ -187,12 +193,6 @@ body {
 .btn-white:hover {
   background-color: #d4d4d4;
   border: 1px solid #d4d4d4;
-  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
-}
-
-.btn-secondary:hover {
-  background-color: #f8522d;
-  border: #FF7C5F;
   box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
 }
 
@@ -207,6 +207,18 @@ body {
   background-color: #5879BC;
   color: white;
   border: 1px solid #4966a1;
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-filtrar {
+  background-color: #ffffff;
+  border: #ffffff;
+  border-radius: 60px;
+}
+
+.btn-filtrar:hover {
+  background-color: #d4d4d4;
+  border: #ffffff;
   box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
 }
 
