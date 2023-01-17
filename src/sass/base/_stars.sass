@@ -1,0 +1,26 @@
+$color_1: $normal
+$color_2: $selected
+
+.star-rating 
+	$size: 20px
+	$normal: #95A5A6
+	$selected: #F39C12
+	display: inline-block
+	a { display: inline-block
+	width: $size
+	height: $size
+	line-height: $size
+	font-size: $size
+	color: $color_1
+	text-decoration: none
+	text-align: center
+	transition: color .3s
+}
+& 
+	&:hover {
+		a {
+			color: $color_2
+			&: hover ~ a { color: $normal
+		}
+	}
+}
