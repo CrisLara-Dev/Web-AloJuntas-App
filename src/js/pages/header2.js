@@ -12,6 +12,7 @@ export class Header2 {
             new Glider(document.querySelector('.lista'),{
                 slidesToShow:1,
                 slidesToScroll:1,
+                draggable: true,
                 dots: '.indicadores',
                 arrows: {
                     prev: '.anterior',
@@ -20,20 +21,30 @@ export class Header2 {
                 responsive: [
                     {
                       // screens greater than >= 775px
-                      breakpoint: 400,
+                      breakpoint: 768,
                       settings: {
                         // Set to `auto` and provide item width to adjust to viewport
-                        slidesToShow: '4',
-                        slidesToScroll: '4',
+                        slidesToShow: '2',
+                        slidesToScroll: '2',
+                        itemWidth: 150,
+                        duration: 0.25
+                      }
+                    },{
+                      // screens greater than >= 775px
+                      breakpoint: 992,
+                      settings: {
+                        // Set to `auto` and provide item width to adjust to viewport
+                        slidesToShow: '5',
+                        slidesToScroll: '5',
                         itemWidth: 150,
                         duration: 0.25
                       }
                     },{
                       // screens greater than >= 1024px
-                      breakpoint: 800,
+                      breakpoint: 1200,
                       settings: {
-                        slidesToShow: 6,
-                        slidesToScroll: 6,
+                        slidesToShow: '6',
+                        slidesToScroll: '6',
                         itemWidth: 150,
                         duration: 0.25
                       }

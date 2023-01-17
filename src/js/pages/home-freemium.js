@@ -12,6 +12,7 @@ export class Homefreemium {
             new Glider(document.querySelector('.lista2'),{
                 slidesToShow:1,
                 slidesToScroll:1,
+                draggable: true,
                 arrows: {
                     prev: '.anterior2',
                     next: '.siguiente2'
