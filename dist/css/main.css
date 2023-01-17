@@ -163,19 +163,6 @@ body {
   font-family: Open Sans;
 }
 
-.container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.checked {
-  color: orange;
-}
-
 .btn-primary {
   background-color: #5879BC;
   border: 1px solid #5879BC;
