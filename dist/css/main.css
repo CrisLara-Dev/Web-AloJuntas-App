@@ -33,6 +33,11 @@
   margin-bottom: 7rem;
 }
 
+.my-8 {
+  margin-top: 60rem;
+  margin-bottom: 60rem;
+}
+
 .rounded-5 {
   border-radius: 0.7rem;
 }
@@ -60,6 +65,14 @@
 
 .mb-7 {
   margin-bottom: 9rem;
+}
+
+.caja {
+  position: absolute;
+}
+
+.caja2 {
+  position: relative;
 }
 
 .bg-white {
