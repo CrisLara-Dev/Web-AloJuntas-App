@@ -217,12 +217,13 @@ body {
 .btn-filtrar {
   background-color: #ffffff;
   border: #ffffff;
-  border-radius: 60px;
+  color: black;
 }
 
 .btn-filtrar:hover {
   background-color: #d4d4d4;
   border: #ffffff;
+  color: black;
   box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
 }
 
