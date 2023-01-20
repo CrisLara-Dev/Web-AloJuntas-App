@@ -65,6 +65,11 @@
   border-top-right-radius: 50%;
 }
 
+.rounded-top-5 {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
 .sombra {
   box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15);
 }
