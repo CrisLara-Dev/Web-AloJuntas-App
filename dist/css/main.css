@@ -118,6 +118,10 @@
   height: 100%;
 }
 
+.bg-total {
+  background-color: #E5E5E5;
+}
+
 .bg-white {
   background-color: #ffffff;
 }
@@ -216,11 +220,12 @@ html,
 body {
   margin: 0;
   padding: 0;
-  color: #4F6168;
+  color: #000;
   font-weight: 300;
   -moz-osx-font-smoothings: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
+  background: #E5E5E5;
 }
 
 .btn-primary {
