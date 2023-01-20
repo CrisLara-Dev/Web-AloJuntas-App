@@ -4,6 +4,12 @@ $primary-hover: #4966a1
 $primary-border-hover: 1px solid #4966a1
 $shadow: 0 .3rem 0.3rem rgba(0,0,0,.15)!important
 
+$primary-bajo: #B9A4DD
+$primary-border-bajo: 1px solid #B9A4DD
+$primary-hover-bajo: #a190be
+$primary-border-hover-bajo: 1px solid #a190be
+$shadow: 0 .3rem 0.3rem rgba(0,0,0,.15)!important
+
 $secondary: #FF7C5F
 $secondary-border: 1px solid #FF7C5F
 $secondary-hover:  #f8522d
@@ -14,12 +20,58 @@ $white-border: 1px solid #ffffff
 $white-hover:  #d4d4d4
 $white-border-hover: 1px solid  #d4d4d4
 
-$border-raius: 60px
+$agua: #7BBBC5
+$agua-border: 1px solid #7BBBC5
+$agua-hover:  #74acb4
+$agua-border-hover: 1px solid  #74acb4
+
+$amarillo: #FFC656
+$amarillo-border: 1px solid #FFC656
+$amarillo-hover:  #e7b44e
+$amarillo-border-hover: 1px solid #e7b44e
+
+$border-radius: 60px
+
+.btn-amarillo
+    background-color: $amarillo
+    color: white
+    border: $amarillo-border
+    border-radius: $border-radius
+
+.btn-amarillo:hover
+    background-color: $amarillo-hover
+    color: white
+    border: $amarillo-border-hover
+    box-shadow: $shadow
+
+.btn-agua
+    background-color: $agua
+    color: white
+    border: $agua-border
+    border-radius: $border-radius
+
+.btn-agua:hover
+    background-color: $agua-hover
+    color: white
+    border: $agua-border-hover
+    box-shadow: $shadow
+
+.btn-primary-bajo
+    background-color: $primary-bajo
+    color: white
+    border: $primary-border-bajo
+    border-radius: $border-radius
+
+.btn-primary-bajo:hover
+    background-color: $primary-hover-bajo
+    color: white
+    border: $primary-border-hover-bajo
+    box-shadow: $shadow
 
 .btn-primary
     background-color: $primary
     border: $primary-border
-    border-radius: $border-raius
+    border-radius: $border-radius
 
 .btn-primary:hover
     background-color: $primary-hover
@@ -29,7 +81,7 @@ $border-raius: 60px
 .btn-secondary
     background-color: $secondary
     border: $secondary
-    border-radius: $border-raius
+    border-radius: $border-radius
 
 .btn-secondary:hover
     background-color: $secondary-hover
@@ -40,7 +92,7 @@ $border-raius: 60px
     background-color: $white
     color: black
     border: $white-border
-    border-radius: $border-raius
+    border-radius: $border-radius
 
 .btn-white:hover
     background-color: $white-hover
@@ -51,7 +103,7 @@ $border-raius: 60px
     background-color: white
     color: $primary
     border: $primary-border
-    border-radius: $border-raius
+    border-radius: $border-radius
 
 .btn-outline-primary:hover
     background-color: $primary

@@ -1,19 +1,122 @@
-extends ../layouts/default-layout3.pug
+extends ../layouts/default-layout3-premium.pug
 block content
-    section.container.my-6
-        div.mt-5.d-flex
+    div.text-white.bg-mora.d-flex.align-items-center
+        div.container
+            <a class="text-white nav-link h5" href="home-premium.html"><i class="fa-solid fa-chevron-left"></i> Volver</a>
+    section.container.mt-5.mb-6
+        div.d-flex
             <i class="fa-regular fa-bookmark m-1 h4"></i>
             h4.fw600 Guardados
-        div.my-4
-            h4.fw700 ¿Qué es la ansiedad y cómo cultivarla?
-            h5.fw400 Los 8 años tienen un nuevo significado para algunas personas.
+        div.mt-5
+            div.d-flex.justify-content-between
+                div
+                    h4.fw600 Temas
+                div
+                    a.color-primary.anterior3
+                        <i class="h2 fa-solid fa-circle-chevron-left me-3"></i>
+                    a.color-primary.siguiente3
+                        <i class="h2 fa-solid fa-circle-chevron-right"></i>
+            div.container
+                    div.d-flex.justify-content-center.align-items-center.p-1
+                        div.d-flex.lista3
+                            div.d-flex.justify-content-center
+                                a(href="").sombra.m-2.col-10.btn.btn-primary
+                                            h6.m-2.fw700 Todos
+                            div.d-flex.justify-content-center
+                                a(href="uso_filtro-premium.html").sombra.m-2.col-10.btn.btn-secondary 
+                                            h6.m-2.fw700 Cuerpo 
+                            div.d-flex.justify-content-center
+                                a(href="").sombra.m-2.col-10.btn.btn-agua 
+                                            h6.m-2.fw700 Límites
+                            div.d-flex.justify-content-center
+                                a(href="").sombra.m-2.col-10.btn.btn-primary-bajo  
+                                            h6.m-2.fw700 Violencia
+                            div.d-flex.justify-content-center
+                                a(href="").sombra.m-2.col-10.btn.btn-amarillo  
+                                            h6.m-2.fw700 Identidad
+                            div.d-flex.justify-content-center
+                                a(href="").sombra.m-2.col-10.btn.btn-primary
+                                            h6.m-2.fw700 Todos 
+                            div.d-flex.justify-content-center
+                                a(href="").sombra.m-2.col-10.btn.btn-secondary
+                                            h6.m-2.fw700 Límites
+                            div.d-flex.justify-content-center
+                                a(href="").sombra.m-2.col-10.btn.btn-agua 
+                                            h6.m-2.fw700 Violencia
+                            div.d-flex.justify-content-center
+                                a(href="").sombra.m-2.col-10.btn.btn-primary-bajo 
+                                            h6.m-2.fw700 Identidad
+                            div.d-flex.justify-content-center
+                                a(href="").sombra.m-2.col-10.btn.btn-amarillo 
+                                            h6.m-2.fw700 Salud Mental 
         div.mt-5
             h4.fw600 Tipo de contenido
-            div.d-flex
-                a(href="").m-2.col-2.btn.btn-white.sombra 
-                    h5.m-2.fw300 Videos
-                a(href="").m-2.col-2.btn.btn-white.sombra 
-                    h5.m-2.fw300 Artículo
-                a(href="").m-2.col-2.btn.btn-white.sombra 
-                    h5.m-2.fw300 Podcast
-            
+            div.my-3.p-2.m-4             
+                    a(href="").col-lg-2.col-5.btn.btn-white.me-5.sombra
+                        h6.m-2.fw700 Videos
+                    a(href="").col-lg-2.col-5.btn.btn-white.me-5.sombra 
+                        h6.m-2.fw700 Artículo
+                    a(href="").col-lg-2.col-5.btn.btn-white.sombra 
+                        h6.m-2.fw700 Podcast
+        div.container
+            div.row.justify-content-center
+                a.btn.m-2.col-6.col-md-4.mt-4(style='width: 16rem;' href="")
+                    img.card-img-top.rounded-4.sombra(src='./images/landing/profesi1.png' alt='...')
+                    div.card-body.text-sm-start.text-center
+                        h5.card-title.fw600 Importancia de ir al psicólogo
+                        h6.card-text.fw400 8 - 10 años
+                a.btn.m-2.col-6.col-md-4.mt-4(style='width: 16rem;' href="")
+                    img.card-img-top.rounded-4.sombra(src='./images/home-freemium/continua-viendo1.png' alt='...')
+                    div.card-body.text-sm-start.text-center
+                        h5.card-titled.fw600 ¿Qué es el cyberbullying?
+                        h6.card-text.fw400 8 - 11 años
+                a.btn.m-2.col-6.col-md-4.mt-4(style='width: 16rem;' href="")
+                    img.card-img-top.rounded-4.sombra(src='./images/landing/profesi3.png' alt='...')
+                    div.card-body.text-sm-start.text-center
+                        h5.card-title.fw600 ¿Mi hijo/o es ansiosa/o?
+                        h6.card-text.fw400 8 - 10 años
+                a.btn.m-2.col-6.col-md-4.mt-4(style='width: 16rem;' href="" )
+                    img.card-img-top.rounded-4.sombra(src='./images/landing/profesi4.png' alt='...')
+                    div.card-body.text-sm-start.text-center
+                        h5.card-title.fw600 ¿Debo poner límites?
+                        h6.card-text.fw400 8 - 12 años
+                a.btn.m-2.col-6.col-md-4.mt-4(style='width: 16rem;' href="")
+                    img.card-img-top.rounded-4.sombra(src='./images/landing/profesi1.png' alt='...')
+                    div.card-body.text-sm-start.text-center
+                        h5.card-title.fw600 Importancia de ir al psicólogo
+                        h6.card-text.fw400 8 - 10 años
+                a.btn.m-2.col-6.col-md-4.mt-4(style='width: 16rem;' href="")
+                    img.card-img-top.rounded-4.sombra(src='./images/home-freemium/continua-viendo1.png' alt='...')
+                    div.card-body.text-sm-start.text-center
+                        h5.card-title.fw600 ¿Qué es el cyberbullying?
+                        h6.card-text.fw400 8 - 11 años
+                a.btn.m-2.col-6.col-md-4.mt-4(style='width: 16rem;' href="")
+                    img.card-img-top.rounded-4.sombra(src='./images/landing/profesi3.png' alt='...')
+                    div.card-body.text-sm-start.text-center
+                        h5.card-title.fw600 ¿Mi hijo/o es ansiosa/o?
+                        h6.card-text.fw400 8 - 10 años
+                a.btn.m-2.col-6.col-md-4.mt-4(style='width: 16rem;' href="")
+                    img.card-img-top.rounded-4.sombra(src='./images/landing/profesi4.png' alt='...')
+                    div.card-body.text-sm-start.text-center
+                        h5.card-title.fw600 ¿Debo poner límites?
+                        h6.card-text.fw400 8 - 12 años
+                a.btn.m-2.col-6.col-md-4.mt-4(style='width: 16rem;' href="")
+                    img.card-img-top.rounded-4.sombra(src='./images/landing/profesi1.png' alt='...')
+                    div.card-body.text-sm-start.text-center
+                        h5.card-title.fw600 Importancia de ir al psicólogo
+                        h6.card-text.fw400 8 - 10 años
+                a.btn.m-2.col-6.col-md-4.mt-4(style='width: 16rem;' href="")
+                    img.card-img-top.rounded-4.sombra(src='./images/home-freemium/continua-viendo1.png' alt='...')
+                    div.card-body.text-sm-start.text-center
+                        h5.card-title.fw600 ¿Qué es el cyberbullying?
+                        h6.card-text.fw400 8 - 11 años
+                a.btn.m-2.col-6.col-md-4.mt-4(style='width: 16rem;' href="")
+                    img.card-img-top.rounded-4.sombra(src='./images/landing/profesi3.png' alt='...')
+                    div.card-body.text-sm-start.text-center
+                        h5.card-title.fw600 ¿Mi hijo/o es ansiosa/o?
+                        h6.card-text.fw400 8 - 10 años
+                a.btn.m-2.col-6.col-md-4.mt-4(style='width: 16rem;' href="")
+                    img.card-img-top.rounded-4.sombra(src='./images/landing/profesi4.png' alt='...')
+                    div.card-body.text-sm-start.text-center
+                        h5.card-title.fw600 ¿Debo poner límites?
+                        h6.card-text.fw400 8 - 12 años    

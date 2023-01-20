@@ -228,6 +228,48 @@ body {
   background: #E5E5E5;
 }
 
+.btn-amarillo {
+  background-color: #FFC656;
+  color: white;
+  border: 1px solid #FFC656;
+  border-radius: 60px;
+}
+
+.btn-amarillo:hover {
+  background-color: #e7b44e;
+  color: white;
+  border: 1px solid #e7b44e;
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-agua {
+  background-color: #7BBBC5;
+  color: white;
+  border: 1px solid #7BBBC5;
+  border-radius: 60px;
+}
+
+.btn-agua:hover {
+  background-color: #74acb4;
+  color: white;
+  border: 1px solid #74acb4;
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-primary-bajo {
+  background-color: #B9A4DD;
+  color: white;
+  border: 1px solid #B9A4DD;
+  border-radius: 60px;
+}
+
+.btn-primary-bajo:hover {
+  background-color: #a190be;
+  color: white;
+  border: 1px solid #a190be;
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
+}
+
 .btn-primary {
   background-color: #5879BC;
   border: 1px solid #5879BC;
