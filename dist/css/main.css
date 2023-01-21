@@ -43,13 +43,18 @@
 }
 
 .my-9 {
-  margin-top: 60rem;
+  margin-top: 80rem;
   margin-bottom: 70rem;
 }
 
 .my-10 {
   margin-top: 60rem;
   margin-bottom: 82rem;
+}
+
+.my-11 {
+  margin-top: 80rem;
+  margin-bottom: 70rem;
 }
 
 .rounded-5 {
@@ -88,6 +93,10 @@
 
 .mb-8 {
   margin-bottom: 4rem;
+}
+
+.mb-9 {
+  margin-bottom: 2.5rem;
 }
 
 .h7 {
