@@ -322,7 +322,11 @@ figure::after {
 }
 
 .mt--2 {
-  margin-top: -2.5rem;
+  margin-top: -5rem;
+}
+
+.mt--1 {
+  margin-top: -1rem;
 }
 
 .bg-total {
