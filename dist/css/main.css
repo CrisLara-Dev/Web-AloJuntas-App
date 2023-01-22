@@ -321,6 +321,10 @@ figure::after {
   position: relative;
 }
 
+.mt--2 {
+  margin-top: -2.5rem;
+}
+
 .bg-total {
   background-color: #E5E5E5;
 }
