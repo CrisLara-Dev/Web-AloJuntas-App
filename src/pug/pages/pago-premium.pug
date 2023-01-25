@@ -1,31 +1,29 @@
 extends ../layouts/default-layout.pug
 block content
-    section.container.text-center
-        .mt-6
-        h2.text-center.font-weight-bold(style='color: #F37053') ¡Accede a Premium!
-    section.container
-        div.container.mt-4(style='width: 30rem;border-radius: 1rem; box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);')
-            <form class="form-floating mt-4 container">
-                br
-                <div class="col-md-14 col-0 container mt-2">
-                    <label for="exampleInputEmail1" class="form-label mt-2">Número de la tarjeta</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="col-md-14 col-0 container mt-2">
-                    <label for="exampleInputPassword1" class="form-label mt-2">Fecha de vencimiento</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="MM/AA">
-                </div>
-                <div class="col-md-14 col-0 container mt-2">
-                    <label for="exampleInputPassword1" class="form-label mt-2">Código de seguridad</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="123">
-                </div>
-                <div class="col-md-14 col-0 container mt-4">
-                    h7 Por este medio autorizas para que automáticamente se haga un
-                    h7 cargo cada mes, hasta que canceles tu suscripción.
-                </div>
-                br
-            </form>
-    div.d-flex.justify-content-center.mt-5
-        a(href="").btn.btn-primary(style='width: 20rem;')
-            h5.m-1.font-weight-bold Pagar    
-    .mt-5                      
+    div.my-6
+        section.container.text-center
+            h3.text-center.font-weight-bold(style='color: #F37053') ¡Accede a Premium!
+        section.container
+            div.container.mt-4.sombra.bg-white.rounded-4.card.col-md-5
+                <form class="mt-4 container">
+                    br
+                    <div class="col-md-14 col-0 container ">
+                        <label for="exampleInputEmail1" class="form-label mt-2">Número de la tarjeta</label>
+                        <input type="text" class="form-control rounded-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="col-md-14 col-0 container mt-2">
+                        <label for="exampleInputPassword1" class="form-label mt-2">Fecha de vencimiento</label>
+                        <input type="date" class="form-control" id="exampleInputPassword1" placeholder="MM/AA">
+                    </div>
+                    <div class="col-md-14 col-0 container mt-2">
+                        <label for="exampleInputPassword1" class="form-label mt-2">Código de seguridad</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="123">
+                    </div>
+                    <div class=" container my-5">
+                        h6 Por este medio autorizas para que automáticamente se haga un cargo cada mes, hasta que canceles tu suscripción.
+                    </div>
+                    br
+                </form>
+        div.d-flex.justify-content-center.mt-5
+            a(href="").btn.btn-primary(style='width: 20rem;')
+                h5.m-1.font-weight-bold Pagar                         

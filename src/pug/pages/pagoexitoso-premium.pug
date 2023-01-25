@@ -1,12 +1,12 @@
-extends ../layouts/default-layout2-premium.pug
+extends ../layouts/default-layout3-premium.pug
 block content
-    section.container.text-center
-        .mt-6
-        h2.text-center.font-weight-bold(style='color: #F37053') ¡Pago exitoso!
-        img.fluid.mt-4(src='./images/global/pagoexitoso.png' alt='...')(style='width: 8rem; height: 8rem')
-    section.container.text-center
-        h4.text-center.mt-5 Empieza a disfrutar de nuestro contenido
-        h4.text-center manera ilimitada.
-        div.d-flex.justify-content-center.mt-5
-        a(href="").btn.btn-primary(style='width: 20rem;')
-            h5.m-1.font-weight-bold Continuar
+    div.my-6
+        section.container.text-center
+            h3.text-center.font-weight-bold(style='color: #F37053') ¡Pago exitoso!
+            img.fluid.mt-4(src='./images/global/pagoexitoso.png' alt='...')(style='width: 8rem; height: 8rem')
+        section.container.text-center
+            div.d-flex.justify-content-center
+                h5.text-center.mt-5.col-md-4.col-12 Empieza a disfrutar de nuestro contenido de manera ilimitada.
+            div.d-flex.justify-content-center.mt-5
+            a(href="").btn.btn-primary.col-md-2.col-6
+                h6.m-2.font-weight-bold Continuar
