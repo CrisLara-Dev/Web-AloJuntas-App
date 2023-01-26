@@ -1,0 +1,36 @@
+extends ../layouts/default-layout4.pug
+block content
+    div.container
+        div.my-5.row
+            div.col-2.d-md-flex.d-none.justify-content-end 
+                img.mt-3.img-fluid(src='./images/registro-premium/deco1.png' alt='...')(style='width: 2.5rem; height: 4rem')
+            div.col-md-8.col-12
+                section.container.d-flex.justify-content-center.col-lg-10.col-md-11.col-12
+                    div.mt-5.col-lg-9.m-2
+                        <form class="">
+                            <div class=" mt-4">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="fw400 form-label h6">Celular</label>
+                                    div.d-flex
+                                        <div class="col-auto me-1">
+                                            <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                                            <select class="form-select rounded-5" id="autoSizingSelect">
+                                            <option selected class="d-flex">+51</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <input type="text" class="form-control rounded-5" id="exampleFormControlInput1" >
+                                </div>
+                            </div>
+                        </form>
+                div.d-flex.justify-content-center.mt-4.mb-5
+                    a.d-flex.text-decoration-none.m-4.justify-content-end.col-5.align-items-center(href="registro2-premium.html")
+                        h6.color-black.fw400.me-2 Atrás
+                        <i class="h2 fa-solid fa-circle-chevron-left color-icon3"></i>
+                    a.d-flex.text-decoration-none.m-4.justify-content-start.align-items-center.col-5(href="registro4-premium.html")
+                        <i class="h2 fa-solid fa-circle-chevron-right color-icon3 me-2"></i>
+                        h6.color-black.fw400 Siguiente  
+            div.col-2.mt-8.d-md-flex.d-none
+                img.mt-3.img-fluid(src='./images/registro-premium/deco2.png' alt='...')(style='width: 6rem; height: 8rem')                  

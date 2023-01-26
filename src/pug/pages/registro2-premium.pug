@@ -1,0 +1,47 @@
+extends ../layouts/default-layout4.pug
+block content
+    div.container
+        div.my-5.row
+            div.col-2.d-md-flex.d-none.justify-content-end 
+                img.mt-3.img-fluid(src='./images/registro-premium/deco1.png' alt='...')(style='width: 2.5rem; height: 4rem')
+            div.col-md-8.col-12
+                section.text-center
+                    h3.fw700.color-secundary.m-2(style='color: #F37053') ¡Queremos conocerte un poco más!
+                section.container.d-flex.justify-content-center.col-lg-10.col-md-11.col-12
+                    div.mt-5.col-lg-9.m-2
+                        <form class="">
+                            <label for="exampleInputEmail1" class=" form-label mt-2 h6 fw400">Registra a tus hijas/os</label>
+                            <div class=" mt-4">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="fw400 form-label h6>Nombre</label>
+                                    <input type="text" class="form-control rounded-5" id="exampleFormControlInput1" >
+                                </div>
+                                <label for="exampleInputEmail1" class="form-label h6 fw400">Género</label>
+                                <div class="form-check mt-2 ml-1">
+                                    <input class="form-check-input fs-5" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label m-1 fw400" for="flexCheckDefault">Mujer</label>
+                                </div>
+                                <div class="form-check mt-2 ml-1">
+                                    <input class="form-check-input fs-5" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label m-1 fw400" for="flexCheckDefault">Hombre</label>
+                                </div>
+                                <div class="mt-4">
+                                    <label for="exampleFormControlInput1" class="fw400 form-label h6">Fecha de nacimiento</label>
+                                    <input type="text" class="form-control rounded-5" id="exampleFormControlInput1" >
+                                </div>
+                            </div>
+                        </form>
+                div.d-flex.justify-content-center 
+                    a.d-flex.text-decoration-none.m-4.justify-content-start.align-items-center.rounded-4.color-icon3(href="" style="border-style:dashed")
+                        div.m-1.d-flex
+                            h6.color-black.fw500.m-1  Agregar
+                            <i class="fa-solid fa-circle-plus m-1 h5 color-icon3"></i>
+                div.d-flex.justify-content-center.mt-4.mb-5
+                    a.d-flex.text-decoration-none.m-4.justify-content-end.col-5.align-items-center(href="registro-premium.html")
+                        h6.color-black.fw400.me-2 Atrás
+                        <i class="h2 fa-solid fa-circle-chevron-left color-icon3"></i>
+                    a.d-flex.text-decoration-none.m-4.justify-content-start.align-items-center.col-5(href="registro3-premium.html")
+                        <i class="h2 fa-solid fa-circle-chevron-right color-icon3 me-2"></i>
+                        h6.color-black.fw400 Siguiente  
+            div.col-2.mt-8.d-md-flex.d-none
+                img.mt-3.img-fluid(src='./images/registro-premium/deco2.png' alt='...')(style='width: 6rem; height: 8rem')                  

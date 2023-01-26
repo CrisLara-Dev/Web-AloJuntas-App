@@ -1,3 +1,39 @@
 extends ../layouts/default-layout4.pug
 block content
-    
+    div.container
+        div.my-5.row
+            div.col-2.d-md-flex.d-none.justify-content-end 
+                img.mt-3.img-fluid(src='./images/registro-premium/deco1.png' alt='...')(style='width: 2.5rem; height: 4rem')
+            div.col-md-8.col-12
+                section.text-center
+                    h3.fw700.color-secundary.m-2(style='color: #F37053') ¡Queremos conocerte un poco más!
+                section.container.d-flex.justify-content-center.col-lg-10.col-md-11.col-12
+                    div.mt-5.col-lg-9.m-2
+                        <form class="">
+                            <label for="exampleInputEmail1" class=" form-label mt-2 h6 fw400">Rol de crianza</label>
+                            <div class=" mt-3">
+                                <div class="form-check mt-2 ml-1">
+                                    <input class="form-check-input fs-5" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label m-1 fw400" for="flexCheckDefault">Madre</label>
+                                </div>
+                                <div class="form-check mt-2 ml-1">
+                                    <input class="form-check-input fs-5" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label m-1 fw400" for="flexCheckDefault">Padre</label>
+                                </div>
+                                <div class="form-check mt-2 ml-1">
+                                    <input class="form-check-input fs-5" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label m-1 fw400" for="flexCheckDefault">Cuidador/a
+                                        h6.letra2.fw400.col-lg-7.col-10 Soy cercana/o a un menor de edad (tíos, abuelos, hermanos)
+                                    </label>
+                                </div>
+                            </div>
+                        </form>
+                div.d-flex.justify-content-center.mt-7.mb-5
+                    a.d-flex.text-decoration-none.m-4.justify-content-end.col-5.align-items-center(href="")
+                        h6.color-black.fw400.me-2 Atrás
+                        <i class="h2 fa-solid fa-circle-chevron-left color-icon3"></i>
+                    a.d-flex.text-decoration-none.m-4.justify-content-start.align-items-center.col-5(href="registro2-premium.html")
+                        <i class="h2 fa-solid fa-circle-chevron-right color-icon3 me-2"></i>
+                        h6.color-black.fw400 Siguiente  
+            div.col-2.mt-8.d-md-flex.d-none
+                img.mt-3.img-fluid(src='./images/registro-premium/deco2.png' alt='...')(style='width: 6rem; height: 8rem')                  
