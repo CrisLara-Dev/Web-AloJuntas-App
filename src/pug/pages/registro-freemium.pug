@@ -1,0 +1,39 @@
+extends ../layouts/default-layout.pug
+block content
+    div.container
+        div.mt-5.mb-7.row
+            div.col-md-6.d-md-flex.d-none
+                div.mt-5
+                    img.mt-3.img-fluid(src='./images/registro-freemium/iniciar.png' alt='...')(style='width: 29.5rem; height: 35rem')
+            div.col-md-6
+                .m-4 
+                    section.text-end.my-3
+                        h4.fw700.color-secundary(style='color: #F37053') ¡Comienza tu registro gratis!
+                    section.mb-4.text-end.d-flex.justify-content-end 
+                        h6.fw600.m-1 ¿Ya tienes cuenta? 
+                        a.h6(href="") Ingresa aquí
+                    a(href="").btn.btn-outline-primary.d-flex.justify-content-center 
+                            img.img-fluid.m-1(src='./images/registro-freemium/google.png' alt='...')(style='width: 1.5rem; height: 1.5rem')
+                            h6.m-2.fw600 Iniciar sesión con Google
+                    hr.my-3
+                    div.row
+                        div.col-md-6
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                        div.col-md-6
+                            <div class="form-floating ">
+                                <input type="text" class="form-control form-control-sm rounded-5" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Apellido</label>
+                            </div>
+                    div
+                        <div class="form-floating mt-3">
+                            <input type="text" class="form-control rounded-5" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Correo electrónico</label>
+                        </div>
+                    div
+                        <div class="form-floating mt-3">
+                            <input type="password" class="form-control rounded-5" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Contraseña</label>
+                        </div>

@@ -1,25 +1,51 @@
 extends ../layouts/default-layout4.pug
 block content
     div.container
-        div.my-5.row
+        div.mt-5.mb-2.row
             div.col-2.d-md-flex.d-none.justify-content-end 
                 img.mt-3.img-fluid(src='./images/registro-premium/deco1.png' alt='...')(style='width: 2.5rem; height: 4rem')
             div.col-md-8.col-12
                 section.text-center.mt-3
                     h3.fw700(style='color: #F37053') ¡Accede a Premium!
                 section.d-flex.justify-content-center.col-lg-12
-                    div.mt-4.sombra.bg-white.rounded-4.card.col-lg-7
-                        div.container.bg-agua.rounded-5
-                            div.my-3.text.white.d-flex.justify-content-between.align-items-center
+                    div.my-4.sombra.bg-white.rounded-4.card.col-lg-8
+                        div.container.bg-agua.rounded-6
+                            div.my-4.text.white.d-flex.justify-content-between.align-items-center.text-white
                                 h6.fw400 Cuenta Premium 
                                 h6.fw400 Por S/.9.90
                         div.container
-                            div.my-3.d-flex.justify-content-between.align-items-center
+                            div.my-4.d-flex.justify-content-between.align-items-center
                                 h6.fw400 A partir de hoy
                                 h6.fw400 22 dic.2022
                         div.container
+                            div.my-4.d-flex.justify-content-between
+                                div    
+                                    h6.fw400 Próxima fecha de facturación
+                                    h6.fw400 Pago mensual
+                                h6.fw400 22 ene.2023
+                        div.container.mt-4
                             li.fw400 Te enviaremos un recordatorio 7 días antes de cobrarte
-                            li Cancela en cualquier momento. Aplican términos y condiciones.
+                            li Cancela en cualquier momento. 
+                                a.color-black(href="")  Aplican términos y condiciones
+                        div.d-flex.justify-content-start.col-sm-10   
+                            <input type="text" class="form-control rounded-5 m-4" id="exampleInputPassword1" placeholder="Ingresa tu cupón de descuento">
+                        div.container
+                            div.my-3.mb-4.text.white.d-flex.justify-content-between.align-items-center
+                                h6.fw400 Total a pagar
+                                h6.fw400 9.90
+    div.container
+        div.mb-5.row
+            div.col-2.d-md-flex.d-none.justify-content-end 
+            div.col-md-8.col-12
+                section.d-flex.justify-content-center.col-lg-12.col-12
+                    div.bg-white.rounded-4.card.col-lg-8.col-12
+                        div.container
+                            .mt-4.d-flex.align-items-center
+                                <input class="form-check-input fs-5 me-2" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label m-1 fw400" for="flexCheckDefault">Tarjeta de crédito o débito</label>
+                        div.ml-2.mb-4.d-flex.align-items-center
+                            img.img-fluid(src='./images/registro-premium/tarjeta.png', alt="")(style='width: 12rem; height: 2.5rem')
+
                 div.d-flex.justify-content-center.mt-3.mb-5
                     a.d-flex.text-decoration-none.m-4.align-items-center(href="registro6-premium.html")
                         h6.color-black.fw400.me-2 Atrás
