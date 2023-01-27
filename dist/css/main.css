@@ -23,8 +23,12 @@
   font-weight: 900;
 }
 
+.border-mora {
+  border: 2px solid #5879BC;
+}
+
 hr:not([size]) {
-  height: 2px;
+  height: 1.5px;
 }
 
 .font-weight-bold {
@@ -142,6 +146,10 @@ hr:not([size]) {
 
 .letra2 {
   font-size: 0.8rem;
+}
+
+.letra3 {
+  font-size: 0.659rem;
 }
 
 .caja {
@@ -561,6 +569,20 @@ body {
   background: #E5E5E5;
 }
 
+.btn-plomo {
+  background-color: #ADADAC;
+  color: white;
+  border: 1px solid #ADADAC;
+  border-radius: 60px;
+}
+
+.btn-plomo:hover {
+  background-color: #919191;
+  color: white;
+  border: 1px solid #919191;
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
+}
+
 .btn-amarillo {
   background-color: #FFC656;
   color: white;
@@ -653,7 +675,7 @@ body {
 }
 
 .btn-outline-primary {
-  background-color: white;
+  background-color: #E6E6E6;
   color: #5879BC;
   border: 1px solid #5879BC;
   border-radius: 60px;
@@ -669,6 +691,27 @@ body {
 .btn-outline-primary:focus {
   background-color: #4966a1;
   border-color: 1px solid #4966a1;
+  color: white;
+  box-shadow: 0 0 0 0.25rem rgba(255, 124, 95, 0);
+}
+
+.btn-outline-primary2 {
+  background-color: #E6E6E6;
+  color: #5879BC;
+  border: 2px solid #5879BC;
+  border-radius: 60px;
+}
+
+.btn-outline-primary2:hover {
+  background-color: #5879BC;
+  color: white;
+  border: 2px solid #5879BC;
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-outline-primary2:focus {
+  background-color: #4966a1;
+  border: 2px solid #5879BC;
   color: white;
   box-shadow: 0 0 0 0.25rem rgba(255, 124, 95, 0);
 }

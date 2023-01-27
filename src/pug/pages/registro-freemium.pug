@@ -4,36 +4,60 @@ block content
         div.mt-5.mb-7.row
             div.col-md-6.d-md-flex.d-none
                 div.mt-5
-                    img.mt-3.img-fluid(src='./images/registro-freemium/iniciar.png' alt='...')(style='width: 29.5rem; height: 35rem')
+                    img.mt-3.img-fluid(src='./images/registro-freemium/iniciar.png' alt='...')(style='width: 31rem; height: 40rem')
             div.col-md-6
                 .m-4 
-                    section.text-end.my-3
+                    section.text-md-end.text-center.my-3
                         h4.fw700.color-secundary(style='color: #F37053') ¡Comienza tu registro gratis!
-                    section.mb-4.text-end.d-flex.justify-content-end 
-                        h6.fw600.m-1 ¿Ya tienes cuenta? 
-                        a.h6(href="") Ingresa aquí
-                    a(href="").btn.btn-outline-primary.d-flex.justify-content-center 
+                    section.my-4.d-flex.justify-content-md-end.justify-content-center
+                        h6.fw600.me-1 ¿Ya tienes cuenta? 
+                        a.h6.color-primary(href="") Ingresa aquí
+                    a(href="").btn.btn-outline-primary2.d-flex.justify-content-center 
                             img.img-fluid.m-1(src='./images/registro-freemium/google.png' alt='...')(style='width: 1.5rem; height: 1.5rem')
                             h6.m-2.fw600 Iniciar sesión con Google
-                    hr.my-3
+                    hr.my-3.bg-mora
                     div.row
                         div.col-md-6
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="bg-transparent border-mora rounded-5 form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput fw400">Nombre</label>
                             </div>
                         div.col-md-6
-                            <div class="form-floating ">
-                                <input type="text" class="form-control form-control-sm rounded-5" id="floatingPassword" placeholder="Password">
-                                <label for="floatingPassword">Apellido</label>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="bg-transparent border-mora form-control rounded-5" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword fw400">Apellido</label>
                             </div>
                     div
-                        <div class="form-floating mt-3">
-                            <input type="text" class="form-control rounded-5" id="floatingPassword" placeholder="Password">
-                            <label for="floatingPassword">Correo electrónico</label>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="bg-transparent border-mora form-control rounded-5" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword fw400">Correo electrónico</label>
                         </div>
+                    div.mb-3
+                        <div class="form-floating ">
+                            <input type="password" class="bg-transparent border-mora form-control rounded-5" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword fw400">Contraseña</label>
+                        </div>
+                        div
+                            h6.letra3.m-3 Por tu seguridad, considera un mínimo de 8 caracteres.
+                    div.mb-3
+                        div.border-mora.rounded-5
+                            div.p-3
+                                div 
+                                    h6.fw400 Edades de tus hijas/os
+                                    h6.letra3.fw400 Elije la opción que se adapte
+                                <div class="form-check mt-2 ml-1">
+                                    <input class="form-check-input fs-5 " type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label m-1 fw400" for="flexCheckDefault">8 a 11 años</label>
+                                </div>
+                                <div class="form-check mt-2 ml-1">
+                                    <input class="form-check-input fs-5" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label m-1 fw400" for="flexCheckDefault">12 a 15 años</label>
+                                </div>
+                                <div class="form-check mt-2 ml-1">
+                                    <input class="form-check-input fs-5" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label m-1 fw400" for="flexCheckDefault">Ambos</label>
+                                </div>
                     div
-                        <div class="form-floating mt-3">
-                            <input type="password" class="form-control rounded-5" id="floatingPassword" placeholder="Password">
-                            <label for="floatingPassword">Contraseña</label>
-                        </div>
+                        h6.letra3.m-3 Al “Crear cuenta” estarás aceptando las Políticas de privacidad y Términos del servicio
+                    a(href="").mt-4.btn.btn-plomo.d-flex.justify-content-center 
+                            h6.m-2.fw600 Crear cuenta       

@@ -30,7 +30,24 @@ $amarillo-border: 1px solid #FFC656
 $amarillo-hover:  #e7b44e
 $amarillo-border-hover: 1px solid #e7b44e
 
+$plomo: #ADADAC
+$plomo-border: 1px solid #ADADAC
+$plomo-hover:  #919191
+$plomo-border-hover: 1px solid #919191
+
 $border-radius: 60px
+
+.btn-plomo
+    background-color: $plomo
+    color: white
+    border: $plomo-border
+    border-radius: $border-radius
+
+.btn-plomo:hover
+    background-color: $plomo-hover
+    color: white
+    border: $plomo-border-hover
+    box-shadow: $shadow
 
 .btn-amarillo
     background-color: $amarillo
@@ -110,7 +127,7 @@ $border-radius: 60px
     box-shadow: $shadow
 
 .btn-outline-primary
-    background-color: white
+    background-color: #E6E6E6
     color: $primary
     border: $primary-border
     border-radius: $border-radius
@@ -124,6 +141,24 @@ $border-radius: 60px
 .btn-outline-primary:focus
     background-color: $primary-hover
     border-color: $primary-border-hover
+    color: white
+    box-shadow: 0 0 0 0.25rem rgb(255 124 95 / 0%)
+
+.btn-outline-primary2
+    background-color: #E6E6E6
+    color: $primary
+    border: 2px solid #5879BC
+    border-radius: $border-radius
+
+.btn-outline-primary2:hover
+    background-color: $primary
+    color: white
+    border: 2px solid #5879BC
+    box-shadow: $shadow
+
+.btn-outline-primary2:focus
+    background-color: $primary-hover
+    border: 2px solid #5879BC
     color: white
     box-shadow: 0 0 0 0.25rem rgb(255 124 95 / 0%)
 
