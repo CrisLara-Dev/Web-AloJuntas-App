@@ -409,6 +409,46 @@ figure::after {
   z-index: -1;
 }
 
+.cajafoto10 {
+  z-index: 2;
+  position: relative;
+}
+
+.figure10::after {
+  content: "Videos, artículos, podcasts y más contenido creados por expertas y expertos en educación sexual integral.";
+  position: absolute;
+  color: white;
+  background-color: #7BBBC5;
+  border-radius: 1.5rem;
+  top: -40px;
+  right: -60px;
+  width: 147px;
+  height: 115px;
+  z-index: -1;
+}
+
+.grupo3 {
+  position: relative;
+}
+
+.grupo3 .icono3 {
+  position: absolute;
+  margin-left: 28.2rem;
+  top: 19px;
+  font-size: 22px;
+}
+
+.grupo2 {
+  position: relative;
+}
+
+.grupo2 .icono2 {
+  position: absolute;
+  margin-left: 28.5rem;
+  top: 19px;
+  font-size: 22px;
+}
+
 .grupo {
   position: relative;
 }
@@ -426,11 +466,6 @@ figure::after {
   color: #8d757d;
 }
 
-@media (max-width: 767px) {
-  .grupo .icono {
-    top: 17px;
-  }
-}
 .bg-total {
   background-color: #E5E5E5;
 }
