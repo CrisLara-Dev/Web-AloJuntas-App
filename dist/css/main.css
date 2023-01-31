@@ -415,16 +415,80 @@ figure::after {
 }
 
 .figure10::after {
+  content: "";
+  position: absolute;
+  color: white;
+  background-color: #50AEB8;
+  border-radius: 60px;
+  top: 27.5rem;
+  right: -30px;
+  width: 27.5rem;
+  height: 114px;
+  z-index: 1;
+}
+
+.cajafoto11 {
+  z-index: 2;
+  position: relative;
+}
+
+.figure11::after {
   content: "Videos, artículos, podcasts y más contenido creados por expertas y expertos en educación sexual integral.";
   position: absolute;
   color: white;
-  background-color: #7BBBC5;
-  border-radius: 1.5rem;
-  top: -40px;
-  right: -60px;
-  width: 147px;
-  height: 115px;
-  z-index: -1;
+  top: 28.5rem;
+  right: -7px;
+  width: 25rem;
+  height: 114px;
+  z-index: 2;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.figure12::after {
+  content: "";
+  position: absolute;
+  background-image: url(https://i.imgur.com/BnGwM3m.png);
+  background-repeat: no-repeat;
+  top: 3.5rem;
+  right: 74px;
+  width: 25rem;
+  height: 114px;
+  z-index: 2;
+}
+
+.cajafoto12 {
+  z-index: 2;
+  position: relative;
+}
+
+.figure13::after {
+  content: "";
+  position: absolute;
+  background-image: url(https://i.imgur.com/aYKvfXb.png);
+  background-repeat: no-repeat;
+  top: 4rem;
+  right: 101px;
+  width: 215px;
+  height: 185px;
+  z-index: 2;
+}
+
+.cajafoto13 {
+  z-index: 2;
+  position: relative;
+}
+
+.grupo2 {
+  position: relative;
+}
+
+.grupo2 .icono2 {
+  position: absolute;
+  margin-left: 28.5rem;
+  top: 19px;
+  font-size: 22px;
 }
 
 .grupo3 {
@@ -438,14 +502,25 @@ figure::after {
   font-size: 22px;
 }
 
-.grupo2 {
+.grupo4 {
   position: relative;
 }
 
-.grupo2 .icono2 {
+.grupo4 .icono4 {
   position: absolute;
   margin-left: 28.5rem;
-  top: 19px;
+  top: 10px;
+  font-size: 22px;
+}
+
+.grupo5 {
+  position: relative;
+}
+
+.grupo5 .icono5 {
+  position: absolute;
+  margin-left: 28.2rem;
+  top: 10px;
   font-size: 22px;
 }
 
@@ -466,6 +541,118 @@ figure::after {
   color: #8d757d;
 }
 
+.beneficios {
+  height: 24rem;
+}
+
+@media (max-width: 767px) {
+  .grupo .icono {
+    top: 17px;
+  }
+}
+@media (max-width: 1024px) {
+  .grupo2 .icono2 {
+    margin-left: 22.5rem;
+  }
+  .grupo3 .icono3 {
+    margin-left: 22.3rem;
+  }
+  .grupo4 .icono4 {
+    margin-left: 22.5rem;
+  }
+  .grupo5 .icono5 {
+    margin-left: 22.3rem;
+  }
+}
+@media (max-width: 1199px) {
+  .beneficios {
+    height: 20rem;
+  }
+}
+@media (max-width: 991px) {
+  .grupo2 .icono2 {
+    margin-left: 37.5rem;
+  }
+  .grupo3 .icono3 {
+    margin-left: 37.3rem;
+  }
+  .grupo4 .icono4 {
+    margin-left: 37.5rem;
+  }
+  .grupo5 .icono5 {
+    margin-left: 37.3rem;
+  }
+}
+@media (max-width: 767px) {
+  .grupo2 .icono2 {
+    margin-left: 26.5rem;
+  }
+  .grupo3 .icono3 {
+    margin-left: 26.3rem;
+  }
+  .grupo4 .icono4 {
+    margin-left: 26.5rem;
+  }
+  .grupo5 .icono5 {
+    margin-left: 26.3rem;
+  }
+}
+@media (max-width: 414px) {
+  .grupo2 .icono2 {
+    margin-left: 17.5rem;
+  }
+  .grupo3 .icono3 {
+    margin-left: 17.3rem;
+  }
+  .grupo4 .icono4 {
+    margin-left: 17.5rem;
+  }
+  .grupo5 .icono5 {
+    margin-left: 17.3rem;
+  }
+}
+@media (max-width: 380px) {
+  .grupo2 .icono2 {
+    margin-left: 16.5rem;
+  }
+  .grupo3 .icono3 {
+    margin-left: 16.3rem;
+  }
+  .grupo4 .icono4 {
+    margin-left: 16.5rem;
+  }
+  .grupo5 .icono5 {
+    margin-left: 16.3rem;
+  }
+}
+@media (max-width: 360px) {
+  .grupo2 .icono2 {
+    margin-left: 15.5rem;
+  }
+  .grupo3 .icono3 {
+    margin-left: 15.3rem;
+  }
+  .grupo4 .icono4 {
+    margin-left: 15.5rem;
+  }
+  .grupo5 .icono5 {
+    margin-left: 15.3rem;
+  }
+}
+@media (max-width: 280px) {
+  .grupo2 .icono2 {
+    margin-left: 10.5rem;
+  }
+  .grupo3 .icono3 {
+    margin-left: 10.3rem;
+  }
+  .grupo4 .icono4 {
+    margin-left: 10.5rem;
+  }
+  .grupo5 .icono5 {
+    margin-left: 10.3rem;
+  }
+}
 .bg-total {
   background-color: #E5E5E5;
 }
@@ -745,6 +932,27 @@ body {
 }
 
 .btn-outline-primary2:focus {
+  background-color: #4966a1;
+  border: 2px solid #5879BC;
+  color: white;
+  box-shadow: 0 0 0 0.25rem rgba(255, 124, 95, 0);
+}
+
+.btn-outline-primary3 {
+  background-color: #E6E6E6;
+  color: #5879BC;
+  border: 2px solid #5879BC;
+  border-radius: 0.7rem;
+}
+
+.btn-outline-primary3:hover {
+  background-color: #5879BC;
+  color: white;
+  border: 2px solid #5879BC;
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-outline-primary3:focus {
   background-color: #4966a1;
   border: 2px solid #5879BC;
   color: white;

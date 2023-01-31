@@ -1,0 +1,48 @@
+extends ../layouts/default-layout.pug
+block content
+    div.container
+        section.text-center.my-5
+                        h4.fw700.color-secundary(style='color: #F37053') Conoce nuestra versión Premium
+        div.mt-5.mb-7.row
+            div.col-lg-6.d-lg-flex.d-none
+                div.mt-3
+                    div.d-flex.justify-content-start
+                        <div class="d-block">
+                            <figure class="mt-2 cajafoto img-fluid">
+                                <img src="./images/home-freemium/chica-accede-premium.png" class="w-100 beneficios" alt="..." style="border-radius: 10px">
+                            </figure>
+                        </div>
+            div.col-lg-6
+                .m-4 
+                    div.mb-3
+                        div.border-mora.rounded-4.bg-white
+                            div.p-3
+                                div.text-center
+                                    h4.fw700.color-primary Premium
+                            div.d-flex.justify-content-center
+                                div
+                                    div.d-flex.my-3.m-5
+                                            <i class="fa-solid fa-circle-check m-2 fs-4 color-green"></i>
+                                            h5.fw400.m-2 Accede a contenido ilimitado
+                                    div.d-flex.my-3.m-5
+                                            <i class="fa-solid fa-circle-check m-2 fs-4 color-green"></i>
+                                            h5.fw400.m-2  Deja dudas y accede a preguntas frecuentes
+                                    div.d-flex.my-3.m-5
+                                            <i class="fa-solid fa-circle-check m-2 fs-4 color-green"></i>
+                                            h5.fw400.m-2  Guarda tus contenidos favoritos
+                                    div.d-flex.my-3.m-5
+                                            <i class="fa-solid fa-circle-check m-2 fs-4 color-green"></i>
+                                            h5.fw400.m-2  Registrar a hijas y/o hijos
+                                    div.d-flex.my-3.m-5
+                                            <i class="fa-solid fa-circle-check m-2 fs-4 color-green"></i>
+                                            h5.fw400.m-2  Comparte contenido
+                            div.text-center.mt-5
+                                h6.fw700.color-primary Solo por S/. 9.90 al mes
+                            <form class="d-flex justify-content-center">
+                                a(href="mi-perfil.html").btn.btn-secondary.m-2.col-md-5.col-8
+                                    h6.m-2.fw700 Acceder a Premium
+                            </form>
+                            <form class="d-flex justify-content-center mb-3">
+                                a(href="mi-perfil.html").btn.btn-outline-primary.m-2.col-md-5.col-8
+                                    h6.m-2.fw700 Seguir Gratis
+                            </form>
