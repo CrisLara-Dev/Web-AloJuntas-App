@@ -27,6 +27,10 @@
   border: 2px solid #5879BC;
 }
 
+.border-agua {
+  border: 1px solid #61B0BC;
+}
+
 hr:not([size]) {
   height: 1.5px;
 }
@@ -545,6 +549,12 @@ figure::after {
   height: 24rem;
 }
 
+.form-select:focus {
+  border-color: #5879bc;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(88, 121, 188, 0.26);
+}
+
 @media (max-width: 767px) {
   .grupo .icono {
     top: 17px;
@@ -683,6 +693,10 @@ figure::after {
 
 .bg-agua {
   background-color: #7BBBC5;
+}
+
+.color-agua {
+  color: #61B0BC;
 }
 
 .color-star {
