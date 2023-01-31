@@ -959,6 +959,27 @@ body {
   box-shadow: 0 0 0 0.25rem rgba(255, 124, 95, 0);
 }
 
+.btn-outline-primary4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #5879BC;
+  border-radius: 1.5rem;
+}
+
+.btn-outline-primary4:hover {
+  background-color: #5879BC;
+  color: white;
+  border: 2px solid #5879BC;
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-outline-primary4:focus {
+  background-color: #4966a1;
+  border: 2px solid #5879BC;
+  color: white;
+  box-shadow: 0 0 0 0.25rem rgba(255, 124, 95, 0);
+}
+
 .btn-filtrar {
   background-color: #ffffff;
   border: #ffffff;
