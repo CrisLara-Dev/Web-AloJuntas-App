@@ -116,6 +116,10 @@ hr:not([size]) {
   margin-top: 13rem;
 }
 
+.mt-9 {
+  margin-top: 18rem;
+}
+
 .mt--2 {
   margin-top: -3rem;
 }
@@ -663,6 +667,18 @@ figure::after {
     margin-left: 10.3rem;
   }
 }
+.bg-mora-fuerte {
+  background-color: #B24FB4;
+}
+
+.bg-mora2 {
+  background-color: #AE95DA;
+}
+
+.bg-rosada {
+  background-color: #EEB2CA;
+}
+
 .bg-total {
   background-color: #E5E5E5;
 }
@@ -683,6 +699,10 @@ figure::after {
   background-color: #5879BC;
 }
 
+.bg-naranja2 {
+  background-color: #F37053;
+}
+
 .bg-naranja {
   background-color: #FF7C5F;
 }
@@ -693,6 +713,10 @@ figure::after {
 
 .bg-agua {
   background-color: #7BBBC5;
+}
+
+.bg-agua2 {
+  background-color: #61B0BC;
 }
 
 .color-agua {
