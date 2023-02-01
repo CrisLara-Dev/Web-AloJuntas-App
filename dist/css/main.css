@@ -31,6 +31,23 @@
   border: 1px solid #61B0BC;
 }
 
+.border-black {
+  border: 2px solid black;
+}
+
+.border-plomo {
+  border: 2px solid #808080;
+}
+
+.tacho {
+  width: 3.5rem;
+}
+
+.tacho2 {
+  width: 3rem;
+  height: 3rem;
+}
+
 hr:not([size]) {
   height: 1.5px;
 }
@@ -80,6 +97,10 @@ hr:not([size]) {
 
 .rounded-4 {
   border-radius: 1.5rem;
+}
+
+.rounded-7 {
+  border-radius: 2rem;
 }
 
 .rounded-top-4 {
@@ -719,6 +740,10 @@ figure::after {
   background-color: #61B0BC;
 }
 
+.color-plomo {
+  color: #808080;
+}
+
 .color-agua {
   color: #61B0BC;
 }
@@ -729,10 +754,12 @@ figure::after {
 
 .color-icon3 {
   color: #5879BC;
+  border: 2px;
 }
 
 .color-icon3:hover {
   color: #4966a1;
+  border: 2px;
 }
 
 .color-icon2 {
@@ -1029,6 +1056,27 @@ body {
   border: #ffffff;
   color: black;
   box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-outline-secondary {
+  background-color: #E6E6E6;
+  color: black;
+  border: 1px solid #FF7C5F;
+  border-radius: 60px;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #FF7C5F;
+  color: white;
+  border: 1px solid #f8522d;
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-outline-secondary:focus {
+  background-color: #f8522d;
+  border-color: 1px solid #f8522d;
+  color: white;
+  box-shadow: 0 0 0 0.25rem rgba(255, 124, 95, 0);
 }
 
 .niños {

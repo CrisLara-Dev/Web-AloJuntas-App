@@ -1,0 +1,135 @@
+extends ../layouts/default-layout3-premium.pug
+block content
+    div.text-white.bg-mora.d-flex.align-items-center
+        div.container
+            <a class="text-white nav-link h5" href="perfil-premium.html"><i class="fa-solid fa-chevron-left"></i> Volver</a>
+    section.container.mt-7.mb-6
+        div
+            h4.fw700.m-2.mt-3 Datos personales:
+        div.p-2
+            div.d-md-flex.d-block
+                <div class="col-lg-3 col-md-5 col-sm-10  me-md-5 me-0 mt-md-2 mt-2">
+                                <label for="exampleFormControlInput1" class="form-label fw400 h6">Nombre</label>
+                                <input type="text" class="form-control rounded-4  sombra" id="exampleFormControlInput1" value="Lorena">
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-10 mt-4 mt-md-2 ">
+                                    <label for="exampleFormControlInput1" class="form-label fw400 h6">Apellido</label>
+                                    <input type="text" class="form-control rounded-4  sombra" id="exampleFormControlInput1" value="Alva">
+                </div>
+        div.p-2
+            div.mt-2.d-flex
+                <div class="col-lg-3 col-md-5 col-sm-10 col-12 mt-md-3 mt-0">
+                                <label for="exampleFormControlInput1" class="form-label fw400 h6">Correo</label>
+                                <input type="text" class="form-control rounded-4  sombra" id="exampleFormControlInput1" value="lorenaalva2@gmail.com">
+                </div>
+        div.mt-5
+            h4.fw700 Mamá de:
+        div.row.my-4
+                    div.col-md-6.col-12.mt-4
+                        div.col-lg-11.col-12.border-mora.rounded-7
+                            div.d-flex.justify-content-end
+                                a(href="").tacho2.rounded-circle.border-plomo.d-flex.align-items-center.justify-content-center
+                                                <i class="fa-solid fa-trash-can p-2 fs-5 color-plomo"></i>
+                            div.m-4
+                                div.row
+                                    div.col-4
+                                        <div style="width:6rem;height:6rem; background-color:#51A1DB" class=" my-2 d-flex align-items-center justify-content-center rounded-circle ">
+                                            h4.m-1.fw700 L
+                                        </div>
+                                    div.col-8
+                                        <div class="col-12 mt-4">
+                                                        <label for="exampleFormControlInput1" class="form-label fw400 h6">Nombre</label>
+                                                        <input type="text" class="form-control rounded-4  sombra" id="exampleFormControlInput1" value="Lorena">
+                                        </div>
+                                <div class="col-7 mt-4">
+                                    <label for="exampleFormControlInput1" class="form-label fw400 h6">Género</label>
+                                    <input type="text" class="form-control rounded-4  sombra" id="exampleFormControlInput1" value="Mujer">
+                                </div>
+                                <div class="col-7 mt-4 mb-5">
+                                    <label for="exampleFormControlInput1" class="form-label fw400 h6">Fecha de nacimiento</label>
+                                    <input type="date" class="form-control rounded-4  sombra" id="exampleFormControlInput1" value="07/10/2014">
+                                </div>
+                                
+                    div.col-md-6.col-12.d-flex.justify-content-end.mt-4
+                        div.col-lg-11.col-12.border-mora.rounded-7
+                            div.d-flex.justify-content-end
+                                a(href="").tacho2.rounded-circle.border-plomo.d-flex.align-items-center.justify-content-center
+                                                <i class="fa-solid fa-trash-can p-2 fs-5 color-plomo"></i>
+                            div.m-4
+                                div.row
+                                    div.col-4
+                                        <div style="width:6rem;height:6rem; background-color:#89CE43" class=" my-2 d-flex align-items-center justify-content-center rounded-circle ">
+                                            h4.m-1.fw700 M
+                                        </div>
+                                    div.col-8
+                                        <div class="col-12 mt-4">
+                                                        <label for="exampleFormControlInput1" class="form-label fw400 h6">Nombre</label>
+                                                        <input type="text" class="form-control rounded-4  sombra" id="exampleFormControlInput1" value="Miguel">
+                                        </div>
+                                <div class="col-7 mt-4">
+                                    <label for="exampleFormControlInput1" class="form-label fw400 h6">Género</label>
+                                    <input type="text" class="form-control rounded-4  sombra" id="exampleFormControlInput1" value="Hombre">
+                                </div>
+                                <div class="col-7 mt-4 mb-5">
+                                    <label for="exampleFormControlInput1" class="form-label fw400 h6">Fecha de nacimiento</label>
+                                    <input type="date" class="form-control rounded-4  sombra" id="exampleFormControlInput1" value="07/10/2014">
+                                </div>
+        div.d-flex.justify-content-start.mt-5.mb-6
+                    a.d-flex.text-decoration-none.justify-content-start.align-items-center.rounded-4.border-mora(href="" style="")
+                        div.m-1.d-flex
+                            h6.color-black.fw500.m-1  Agregar
+                            <i class="fa-solid fa-circle-plus m-1 h5 color-icon3"></i>
+        div.my-5
+                    h4.fw700 ¿Cómo me describo?
+                    .my-2
+                        div 
+                            div.d-md-flex.d-block
+                                div.col-md-4.d-flex.justify-content-start.mt-5 
+                                    div.col-md-11.col-sm-10.col-12.bg-white.sombra.rounded-4 
+                                        div.d-flex.justify-content-between
+                                            h5.m-3.fw400 Empática/o
+                                            a(href="").tacho.rounded-circle.border-plomo.d-flex.align-items-center.justify-content-center
+                                                <i class="fa-solid fa-trash-can p-2 fs-5 color-plomo"></i>
+                                div.col-md-4.d-flex.justify-content-md-center.justify-content-start.mt-5 
+                                    div.col-md-11.col-sm-10.col-12.bg-white.sombra.rounded-4
+                                        div.d-flex.justify-content-between
+                                            h5.m-3.fw400 Estricta/o
+                                            a(href="").tacho.rounded-circle.border-plomo.d-flex.align-items-center.justify-content-center
+                                                <i class="fa-solid fa-trash-can p-2 fs-5 color-plomo"></i>
+                                div.col-md-4.d-flex.justify-content-md-end.justify-content-start.mt-5  
+                                    div.col-md-11.col-sm-10.col-12.bg-white.sombra.rounded-4 
+                                        div.d-flex.justify-content-between
+                                            h5.m-3.fw400 Afectiva/o
+                                            a(href="").tacho.rounded-circle.border-plomo.d-flex.align-items-center.justify-content-center
+                                                <i class="fa-solid fa-trash-can p-2 fs-5 color-plomo"></i>
+                            div.d-md-flex.d-block
+                                div.col-md-4.d-flex.justify-content-start.mt-5 
+                                    div.col-md-11.col-sm-10.col-12.bg-white.sombra.rounded-4 
+                                        div.d-flex.justify-content-between
+                                            h5.m-3.fw400 Planificador/a
+                                            a(href="").tacho.rounded-circle.border-plomo.d-flex.align-items-center.justify-content-center
+                                                <i class="fa-solid fa-trash-can p-2 fs-5 color-plomo"></i>
+        div.mb-6.mt-2
+                    h5.fw400 Agrega descriptores, dándole click a los que quieras
+                    .my-2
+                        div 
+                            div.d-md-flex.d-block
+                                div.col-md-4.d-flex.justify-content-start.mt-5 
+                                    div.col-md-11.col-sm-10.col-12.bg-white.sombra.rounded-4 
+                                        h5.m-3.fw400 Preocupada/o
+                                div.col-md-4.d-flex.justify-content-md-center.justify-content-start.mt-5 
+                                    div.col-md-11.col-sm-10.col-12.bg-white.sombra.rounded-4
+                                        h5.m-3.fw400 Comprensiva/o
+                                div.col-md-4.d-flex.justify-content-md-end.justify-content-start.mt-5  
+                                    div.col-md-11.col-sm-10.col-12.bg-white.sombra.rounded-4 
+                                        h5.m-3.fw400 Afectiva/o
+                            div.d-md-flex.d-block
+                                div.col-md-4.d-flex.justify-content-start.mt-5 
+                                    div.col-md-11.col-sm-10.col-12.bg-white.sombra.rounded-4 
+                                        h5.m-3.fw400 Relajada/o
+        div.d-flex.justify-content-center.mt-5.mb-6
+                        a(href="perfil-freemium.html").m-4.btn.btn-outline-secondary.d-flex.justify-content-center.col-md-2.col-sm-4.col-5
+                            h6.m-1.fw700 Cancelar
+                        a(href="perfil-freemium.html").m-4.btn.btn-primary.d-flex.justify-content-center.col-md-2.col-sm-4.col-5
+                            h6.m-1.fw700 Guardar
+        
