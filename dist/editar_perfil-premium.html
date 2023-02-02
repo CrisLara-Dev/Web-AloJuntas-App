@@ -84,7 +84,7 @@
         <div class="row my-4">
           <div class="col-md-6 col-12 mt-4">
             <div class="col-lg-11 col-12 border-mora rounded-7">
-              <div class="d-flex justify-content-end"><a class="tacho2 rounded-circle border-plomo d-flex align-items-center justify-content-center" href=""><i class="fa-solid fa-trash-can p-2 fs-5 color-plomo"></i></a></div>
+              <div class="d-flex justify-content-end"><a class="tacho2 rounded-circle border-plomo d-flex align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa-solid fa-trash-can p-2 fs-5 color-plomo"></i></a></div>
               <div class="m-4">
                 <div class="row">
                   <div class="col-4"><div style="width:6rem;height:6rem; background-color:#51A1DB" class=" my-2 d-flex align-items-center justify-content-center rounded-circle ">
@@ -108,7 +108,7 @@
           </div>
           <div class="col-md-6 col-12 d-flex justify-content-end mt-4">
             <div class="col-lg-11 col-12 border-mora rounded-7">
-              <div class="d-flex justify-content-end"><a class="tacho2 rounded-circle border-plomo d-flex align-items-center justify-content-center" href=""><i class="fa-solid fa-trash-can p-2 fs-5 color-plomo"></i></a></div>
+              <div class="d-flex justify-content-end"><a class="tacho2 rounded-circle border-plomo d-flex align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa-solid fa-trash-can p-2 fs-5 color-plomo"></i></a></div>
               <div class="m-4">
                 <div class="row">
                   <div class="col-4"><div style="width:6rem;height:6rem; background-color:#89CE43" class=" my-2 d-flex align-items-center justify-content-center rounded-circle ">
@@ -205,10 +205,27 @@
             </div>
           </div>
         </div>
-        <div class="d-flex justify-content-center mt-5 mb-6"><a class="m-4 btn btn-outline-secondary d-flex justify-content-center col-md-2 col-sm-4 col-5" href="perfil-freemium.html">
-            <h6 class="m-1 fw700">Cancelar</h6></a><a class="m-4 btn btn-primary d-flex justify-content-center col-md-2 col-sm-4 col-5" href="perfil-freemium.html">
+        <div class="d-flex justify-content-center mt-5 mb-6"><a class="m-4 btn btn-outline-secondary d-flex justify-content-center col-md-2 col-sm-4 col-5" href="perfil-premium.html">
+            <h6 class="m-1 fw700">Cancelar</h6></a><a class="m-4 btn btn-primary d-flex justify-content-center col-md-2 col-sm-4 col-5" href="perfil-premium.html">
             <h6 class="m-1 fw700">Guardar</h6></a></div>
-      </section>
+      </section><div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog  modal-dialog-centered modal-lg">
+<div class="modal-content rounded-4 border-mora">
+<div class="modal-body m-4">
+      <div class="d-flex justify-content-center">
+        <div class="color-primary col-md-10">
+          <h5 class="fw700">¿Estas seguro que deseas eliminar _____________?</h5><br>
+          <h5 class="fw700">Recuerda que .....</h5>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">   
+        <div class="d-lg-flex d-block justify-content-center my-4"><a class="col-lg-6 col-10 m-4 btn btn-white2 d-flex justify-content-center" data-bs-dismiss="modal">
+            <h6 class="m-1 fw700">No</h6></a><a class="col-lg-7 col-10 m-4 btn btn-primary d-flex justify-content-center" data-bs-dismiss="modal">
+            <h6 class="m-1 fw700">Sí, eliminar</h6></a></div>
+      </div></div>
+</div>
+</div>
+</div>
       <footer>
         <div class="bg-mora">
           <div class="bg-total"><img class="img-fluid" src="./images/footer/footer1.png" alt="" style="width:100%"></div><section class="container text-white">

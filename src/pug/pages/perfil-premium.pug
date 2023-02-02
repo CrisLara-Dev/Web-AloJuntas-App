@@ -90,37 +90,70 @@ block content
                                 div.col-md-4.d-flex.justify-content-center.mt-5 
                                     .sombra.rounded-4.col-10.text-center.text-white.bg-mora-fuerte  
                                         h5.m-5.fw400 Salud Mental
-        a(data-bs-toggle="modal" data-bs-target="#exampleModal").btn.btn-primary.col-md-4.col-sm-8.col-9.mt-9.mb-6
+        a(data-bs-toggle="modal" data-bs-target="#staticBackdrop").btn.btn-primary.col-lg-4.col-sm-8.col-9.mt-9.mb-6
             h5.m-1.fw400 Cancelar suscripción
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">...
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">Save changes</button>
-            </div>
+
+    <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered modal-lg">
+            <div class="modal-content rounded-4 border-mora">
+                <div class="modal-body m-4">
+                    div.d-flex.justify-content-center
+                        div.color-primary.text-center.col-md-10
+                            h5.fw700 Lamentamos mucho que quieras cancelar tu suscripción a Premium. Recuerda que puedes reactivarla cuando quieras.
+                            br
+                            h5.fw700 ¿Por qué deseas cancelar tu suscripción?*
+                    div.d-flex.justify-content-center
+                        <div class=" mt-1">
+                                    <div class="form-check mt-2 ml-1">
+                                        <input class="border-mora form-check-input fs-5" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label m-1 fw400" for="flexCheckDefault">Ya no necesito la información</label>
+                                    </div>
+                                    <div class="form-check mt-2 ml-1">
+                                        <input class="border-mora form-check-input fs-5" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label m-1 fw400" for="flexCheckDefault">No encuentro la información que busco</label>
+                                    </div>
+                                    <div class="form-check mt-2 ml-1">
+                                        <input class="border-mora form-check-input fs-5" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label m-1 fw400" for="flexCheckDefault">He encontrado otra opción</label>
+                                    </div>
+                                    <div class="form-check mt-2 ml-1">
+                                        <input class="border-mora form-check-input fs-5" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label m-1 fw400" for="flexCheckDefault">La suscripción es muy cara</label>
+                                    </div>
+                                    <div class="form-check mt-2 ml-1 mb-4">
+                                        <input class="border-mora form-check-input fs-5" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label m-1 fw400" for="flexCheckDefault">No la utilizo tanto como quisiera</label>
+                                    </div>
+                        </div>
+                    div.d-flex.justify-content-center    
+                        div.d-lg-flex.d-block.justify-content-center.my-4
+                                a( data-bs-dismiss="modal").col-lg-4.col-10.m-4.btn.btn-white2.d-flex.justify-content-center
+                                    h6.m-1.fw700 Volver
+                                a(data-bs-toggle="modal" data-bs-target="#staticBackdrop2").col-lg-7.col-10.m-4.btn.btn-primary.d-flex.justify-content-center
+                                    h6.m-1.fw700 Cancelar suscripción
+                </div>
             </div>
         </div>
     </div>
-    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">...
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
+    <div class="modal fade " id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered modal-lg">
+            <div class="modal-content rounded-4 border-mora">
+                <div class="modal-body m-4">
+                    div.d-flex.justify-content-center
+                        div.color-primary.text-center.col-md-10
+                            h5.fw700 Tu suscripción ha sido cancelada.
+                            br
+                            h5.fw700 Recuerda que podrás disfrutar de los beneficios Premium hasta que termine este mes de suscripción.
+                    .d-flex.justify-content-center
+                        .text-center.mt-5.mb-4.col-lg-4.col-10   
+                            h6.fw400 Disfruta Premium hasta el 20 de enero de 2023
+                    div.d-flex.justify-content-center    
+                        div.d-lg-flex.d-block.justify-content-center.my-4
+                                a( data-bs-dismiss="modal").col-lg-4.col-10.m-4.btn.btn-white2.d-flex.justify-content-center
+                                    h6.m-1.fw700 Volver
+                                a( data-bs-dismiss="modal").col-lg-7.col-10.m-4.btn.btn-primary.d-flex.justify-content-center
+                                    h6.m-1.fw700 Cancelar suscripción
+                </div>
             </div>
         </div>
     </div>
