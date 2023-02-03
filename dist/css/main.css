@@ -39,6 +39,10 @@
   border: 2px solid #808080;
 }
 
+.border-total {
+  border: 1px solid #F9F8F3;
+}
+
 .tacho {
   width: 3.5rem;
 }
@@ -141,6 +145,22 @@ hr:not([size]) {
   margin-top: 18rem;
 }
 
+.mt-10 {
+  margin-top: 68rem;
+}
+
+.mt-11 {
+  margin-top: 70rem;
+}
+
+.mt-12 {
+  margin-top: 23rem;
+}
+
+.mt-13 {
+  margin-top: 82rem;
+}
+
 .mt--2 {
   margin-top: -3rem;
 }
@@ -179,6 +199,10 @@ hr:not([size]) {
 
 .letra3 {
   font-size: 0.659rem;
+}
+
+.letra4 {
+  font-size: 30px;
 }
 
 .caja {
@@ -701,7 +725,7 @@ figure::after {
 }
 
 .bg-total {
-  background-color: #E5E5E5;
+  background-color: #F9F8F3;
 }
 
 .bg-white {
@@ -853,7 +877,7 @@ body {
   -moz-osx-font-smoothings: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
-  background: #E5E5E5;
+  background: #F9F8F3;
 }
 
 .btn-plomo {
@@ -949,9 +973,9 @@ body {
 }
 
 .btn-white {
-  background-color: #ffffff;
+  background-color: #F9F8F3;
   color: black;
-  border: 1px solid #ffffff;
+  border: 1px solid #F9F8F3;
   border-radius: 60px;
 }
 
@@ -975,7 +999,7 @@ body {
 }
 
 .btn-outline-primary {
-  background-color: #E6E6E6;
+  background-color: #F9F8F3;
   color: #5879BC;
   border: 1px solid #5879BC;
   border-radius: 60px;
@@ -996,7 +1020,7 @@ body {
 }
 
 .btn-outline-primary2 {
-  background-color: #E6E6E6;
+  background-color: #F9F8F3;
   color: #5879BC;
   border: 2px solid #5879BC;
   border-radius: 60px;
@@ -1017,7 +1041,7 @@ body {
 }
 
 .btn-outline-primary3 {
-  background-color: #E6E6E6;
+  background-color: #F9F8F3;
   color: #5879BC;
   border: 2px solid #5879BC;
   border-radius: 0.7rem;
@@ -1080,20 +1104,20 @@ body {
 }
 
 .btn-filtrar {
-  background-color: #ffffff;
-  border: #ffffff;
+  background-color: #F9F8F3;
+  border: #F9F8F3;
   color: black;
 }
 
 .btn-filtrar:hover {
   background-color: #d4d4d4;
-  border: #ffffff;
+  border: #F9F8F3;
   color: black;
   box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .btn-outline-secondary {
-  background-color: #E6E6E6;
+  background-color: #F9F8F3;
   color: black;
   border: 1px solid #FF7C5F;
   border-radius: 60px;
