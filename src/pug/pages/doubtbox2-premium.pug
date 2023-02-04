@@ -4,12 +4,13 @@ block content
         div.container
             <a class="text-white nav-link h5" href="home-premium.html"><i class="fa-solid fa-chevron-left"></i> Volver</a>
     section.container.text-center
-        .mt-6
+        .mt-7
         h2.text-center.fw800(style='color: black') Dudas o sugerencias
-        h4.text-center.mt-4.fw400 Escríbenos aquí para continuar mejorando tu experiencia
-        div.container
-                .form-floating.mt-4.container
-                    textarea.floatingTextarea2.form-control.container.bg-transparent.border-2.rounded-4(placeholder='Leave a comment here' style='height: 25rem; border-color:#5879BC')  
+        h4.text-center.mt-5.mb-8.fw400 Escríbenos aquí para continuar mejorando tu experiencia
+        div.container.d-flex.justify-content-center
+                .form-floating.col-lg-9.col-12
+                    <textarea class="form-control container border-2 rounded-4 " placeholder="Leave a comment here" id="floatingTextarea"  style='height: 25rem; border-color:#5879BC'></textarea>
+                    <label for="floatingTextarea">Escribe aquí tu duda</label>
     div.d-flex.justify-content-center.mt-5
         a(href="doubtbox-premium.html").btn.btn-primary(style='width: 20rem;')
             h5.m-2.fw600 Enviar
