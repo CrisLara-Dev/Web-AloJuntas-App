@@ -23,6 +23,10 @@
   font-weight: 900;
 }
 
+.marginselec {
+  margin: -1.3rem;
+}
+
 .text-white {
   color: #F9F8F3 !important;
 }
