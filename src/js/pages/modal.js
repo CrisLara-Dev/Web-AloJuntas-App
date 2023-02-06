@@ -8,9 +8,9 @@ export class Modal {
     }
 
     init(){
-        function ocultar(){
+        function mostraryocultar(){
             document.getElementById('caja2').style.display = 'block';
-            document.getElementById('img1').style.display = 'none';
+            document.getElementById('caja1').style.display = 'none';
         }
     }
 }
