@@ -96,7 +96,7 @@ block content
     <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog  modal-dialog-centered modal-lg">
             <div class="modal-content rounded-4 border-mora">
-                <div class="modal-body m-4" id="contenido">
+                <div class="modal-body m-4" id="caja1">
                     div.d-flex.justify-content-center
                         div.color-primary.text-center.col-md-10
                             h5.fw700 Lamentamos mucho que quieras cancelar tu suscripción a Premium. Recuerda que puedes reactivarla cuando quieras.
@@ -129,7 +129,7 @@ block content
                         div.d-lg-flex.d-block.justify-content-center.my-4
                                 a( data-bs-dismiss="modal").col-lg-4.col-10.m-4.btn.btn-white2.d-flex.justify-content-center
                                     h6.m-1.fw700 Volver
-                                a(data-bs-toggle="modal" data-bs-target="#staticBackdrop2").col-lg-7.col-10.m-4.btn.btn-primary.d-flex.justify-content-center
+                                a( onclick="ocultar();").col-lg-7.col-10.m-4.btn.btn-primary.d-flex.justify-content-center
                                     h6.m-1.fw700 Cancelar suscripción
                 </div>
             </div>
@@ -138,7 +138,7 @@ block content
     <div class="modal fade " id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog  modal-dialog-centered modal-lg">
             <div class="modal-content rounded-4 border-mora">
-                <div class="modal-body m-4">
+                <div class="modal-body m-4" id="caja2">
                     div.d-flex.justify-content-center
                         div.color-primary.text-center.col-md-10
                             h5.fw700 Tu suscripción ha sido cancelada.
