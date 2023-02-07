@@ -8,9 +8,25 @@ export class Modal {
     }
 
     init(){
-        function mostraryocultar(){
-            document.getElementById('caja2').style.display = 'block';
-            document.getElementById('caja1').style.display = 'none';
+        
+        // .btn-cancel
+
+        // #caja1
+        // #caja2
+
+        var expanded = false;
+        const caja1 = document.getElementById("caja1");
+        const caja2 = document.getElementById("caja2");
+        caja2.style.display = "none";
+        if(caja1){
+            document.querySelector(".btn-cancel-1").onclick = function() {  
+                caja1.style.display = "none";
+                caja2.style.display = "block";
+            }; 
+            document.querySelector(".btn-cancel-2").onclick = function() {  
+                caja2.style.display = "none";
+                caja1.style.display = "block";
+            }; 
         }
     }
 }
