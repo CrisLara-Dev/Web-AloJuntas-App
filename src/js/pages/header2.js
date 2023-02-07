@@ -8,11 +8,14 @@ export class Header2 {
     }
 
     init(){
-        window.addEventListener('load', function(){
+        window.addEventListener('DOMContentLoaded', function(){
+          c('ee')
+
+          const lista = document.querySelector('.lista');
+          if(lista){
             new Glider(document.querySelector('.lista'),{
-                slidesToShow:1,
+                slidesToShow: 1,
                 slidesToScroll:1,
-                draggable: true,
                 dots: '.indicadores',
                 arrows: {
                     prev: '.anterior',
@@ -29,7 +32,8 @@ export class Header2 {
                       itemWidth: 150,
                       duration: 0.25
                     }
-                    },{
+                    },
+                    {
                       // screens greater than >= 775px
                       breakpoint: 768,
                       settings: {
@@ -39,7 +43,8 @@ export class Header2 {
                         itemWidth: 150,
                         duration: 0.25
                       }
-                    },{
+                    },
+                    {
                       // screens greater than >= 775px
                       breakpoint: 992,
                       settings: {
@@ -49,7 +54,8 @@ export class Header2 {
                         itemWidth: 150,
                         duration: 0.25
                       }
-                    },{
+                    },
+                    {
                       // screens greater than >= 1024px
                       breakpoint: 1200,
                       settings: {
@@ -61,6 +67,8 @@ export class Header2 {
                     }
                   ]
             });
+          }
+
         });
     }
 }
