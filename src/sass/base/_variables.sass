@@ -1,8 +1,12 @@
 $negrita: bold
 $shadow: 0 .3rem 0.3rem rgba(0,0,0,.15)
 
+.info
+    width: 22rem
+
 .marginselec
     margin: -1.3rem
+    
 .text-white 
     color: #F9F8F3!important
 
@@ -416,6 +420,35 @@ figure::after
 .cajafoto13
     z-index: 2
     position: relative   
+
+.figure14::after 
+    content: ""
+    position: absolute
+    background-image: url(https://i.imgur.com/eWCYYkC.png)
+    background-repeat: no-repeat
+    top: 1rem 
+    right: 72px
+    width: 261px
+    height: 261px
+    border-radius: 50%
+    z-index: 2
+
+.cajafoto14
+    z-index: 2
+    position: relative   
+
+@media (max-width: 470px) 
+    .figure14::after 
+        content: ""
+        position: absolute
+        background-image: url(https://i.imgur.com/6BJF3Ul.png)
+        background-repeat: no-repeat
+        top: 0.8rem 
+        right: 53px
+        width: 191px
+        height: 192px
+        border-radius: 50%
+        z-index: 2
 
 .grupo2
     position: relative

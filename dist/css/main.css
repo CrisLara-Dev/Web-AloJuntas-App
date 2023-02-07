@@ -23,6 +23,10 @@
   font-weight: 900;
 }
 
+.info {
+  width: 22rem;
+}
+
 .marginselec {
   margin: -1.3rem;
 }
@@ -549,6 +553,38 @@ figure::after {
   position: relative;
 }
 
+.figure14::after {
+  content: "";
+  position: absolute;
+  background-image: url(https://i.imgur.com/eWCYYkC.png);
+  background-repeat: no-repeat;
+  top: 1rem;
+  right: 72px;
+  width: 261px;
+  height: 261px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.cajafoto14 {
+  z-index: 2;
+  position: relative;
+}
+
+@media (max-width: 470px) {
+  .figure14::after {
+    content: "";
+    position: absolute;
+    background-image: url(https://i.imgur.com/6BJF3Ul.png);
+    background-repeat: no-repeat;
+    top: 0.8rem;
+    right: 53px;
+    width: 191px;
+    height: 192px;
+    border-radius: 50%;
+    z-index: 2;
+  }
+}
 .grupo2 {
   position: relative;
 }
@@ -1203,6 +1239,17 @@ body {
   border: 10px solid #FFC656;
 }
 
+.niños2 {
+  width: 26.2rem;
+  height: 20.5rem;
+}
+
+@media (max-width: 470px) {
+  .niños2 {
+    width: 19.2rem;
+    height: 15rem;
+  }
+}
 .enviar {
   margin-top: -7rem;
   border-bottom-right-radius: 2%;
