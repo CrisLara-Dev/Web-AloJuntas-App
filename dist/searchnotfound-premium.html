@@ -58,9 +58,9 @@
           <div class="container">
             <div class="d-flex justify-content-center align-items-center p-1"><a class="color-icon2 anterior"><i class="h2 fa-solid fa-circle-chevron-left m-2"></i></a>
               <div class="d-flex lista">
-                <div><a class="m-2 col-11 btn btn-sm btn-white" href=""> 
+                <div><a class="m-2 col-sm-11 col-none btn btn-sm btn-white" href=""> 
                     <h6 class="letra m-1 fw300">Límites</h6></a></div>
-                <div><a class="m-2 col-11 btn btn-sm btn-white" href="uso_filtro-premium.html"> 
+                <div><a class="m-2 col-sm-11 col-none btn btn-sm btn-white" href="uso_filtro-premium.html"> 
                     <h6 class="letra m-1 fw300">Salud Mental </h6></a></div>
                 <div><a class="m-2 col-11 btn btn-sm btn-white" href=""> 
                     <h6 class="letra m-1 fw300">Identidad</h6></a></div>
@@ -112,28 +112,84 @@
           </div>
         </section>
         <section class="bg-mora">
-          <div class="container">
-            <div class="d-flex p-2"><a class="my-2 btn-filtrar text-decoration-none color-black d-flex" href="mi-perfil.html" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-list-ul m-2 fw400 h-6"></i>
-                <h6 class="m-2 fw400">Filtrar contenido por</h6></a></div>
-          </div>
-        </section>
-        <section class="bg-mora">
-          <div class="container"><form>
-<div class="multiselect">
-<div class="selectBox" id="selectBox">
-<select>
-<option>Select an option</option>
+          <div class="container"><form class="p-2">
+<div class="multiselect my-2 bg-total">
+<div class="selectBox " id="selectBox">
+<select class="p-1">
+<option>
+            <h6 class="m-2 fw400">Filtrar contenido por</h6></option>
 </select>
 <div class="overSelect"></div>
 </div>
 <div id="checkboxes">
-<label for="one">
-<input type="checkbox" id="one" />First checkbox</label>
+            <h5 class="fw400 m-2 mt-3">Duración</h5>
+            <div class="d-flex justify-content-center">
+              <div class="col-9"><label for="one">
+                <div class="d-flex align-items-center justify-content-between"><label class="form-check-label" for="flexCheckDefault">
+                  <div class="d-flex m-1 justify-content-center">
+                    <div class="d-flex align-items-center"><i class="fa-regular fa-clock me-2"></i></div>
+                    <div class="d-flex align-items-center">
+                      <h6 class="fw400 m-1">3 min</h6>
+                    </div>
+                  </div></label>
+<input class="form-check-input m-2" type="checkbox" value="" id="flexCheckDefault">
+                </div></label>
 <label for="two">
-<input type="checkbox" id="two" />Second checkbox</label>
+                <div class="d-flex align-items-center justify-content-between"><label class="form-check-label" for="flexCheckDefault">
+                  <div class="d-flex m-1 justify-content-center">
+                    <div class="d-flex align-items-center"><i class="fa-regular fa-clock me-2"></i></div>
+                    <div class="d-flex align-items-center">
+                      <h6 class="fw400 m-1">5 min</h6>
+                    </div>
+                  </div></label>
+<input class="form-check-input m-2" type="checkbox" value="" id="flexCheckDefault">
+                </div></label>
 <label for="three">
-<input type="checkbox" id="three" />Third checkbox</label>
-</div>
+                <div class="d-flex align-items-center justify-content-between"><label class="form-check-label" for="flexCheckDefault">
+                  <div class="d-flex m-1 justify-content-center">
+                    <div class="d-flex align-items-center"><i class="fa-regular fa-clock me-2"></i></div>
+                    <div class="d-flex align-items-center">
+                      <h6 class="fw400 m-1">7 min</h6>
+                    </div>
+                  </div></label>
+<input class="form-check-input m-2" type="checkbox" value="" id="flexCheckDefault">
+                </div></label>
+              </div>
+            </div>
+            <h5 class="fw400 m-2 mt-3">Formato</h5>
+            <div class="d-flex justify-content-center mb-3">
+              <div class="col-9 mb-3"><label for="one">
+                <div class="d-flex align-items-center justify-content-between"><label class="form-check-label" for="flexCheckDefault">
+                  <div class="d-flex m-1 justify-content-center">
+                    <div class="d-flex align-items-center"><i class="fa-regular fa-clock me-2"></i></div>
+                    <div class="d-flex align-items-center">
+                      <h6 class="fw400 m-1">Videos</h6>
+                    </div>
+                  </div></label>
+<input class="form-check-input m-2" type="checkbox" value="" id="flexCheckDefault">
+                </div></label>
+<label for="two">
+                <div class="d-flex align-items-center justify-content-between"><label class="form-check-label" for="flexCheckDefault">
+                  <div class="d-flex m-1 justify-content-center">
+                    <div class="d-flex align-items-center"><i class="fa-regular fa-clock me-2"></i></div>
+                    <div class="d-flex align-items-center">
+                      <h6 class="fw400 m-1">Podcast</h6>
+                    </div>
+                  </div></label>
+<input class="form-check-input m-2" type="checkbox" value="" id="flexCheckDefault">
+                </div></label>
+<label for="three">
+                <div class="d-flex align-items-center justify-content-between"><label class="form-check-label" for="flexCheckDefault">
+                  <div class="d-flex m-1 justify-content-center">
+                    <div class="d-flex align-items-center"><i class="fa-regular fa-clock me-2"></i></div>
+                    <div class="d-flex align-items-center">
+                      <h6 class="fw400 m-1">Artículos</h6>
+                    </div>
+                  </div></label>
+<input class="form-check-input m-2" type="checkbox" value="" id="flexCheckDefault">
+                </div></label>
+              </div>
+            </div></div>
 </div>
 </form>
           </div>

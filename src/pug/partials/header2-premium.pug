@@ -43,10 +43,10 @@ div.bg-mora
                     <i class="h2 fa-solid fa-circle-chevron-left m-2"></i>
                 div.d-flex.lista
                     div
-                        a(href="").m-2.col-11.btn.btn-sm.btn-white 
+                        a(href="").m-2.col-sm-11.col-none.btn.btn-sm.btn-white 
                             h6.letra.m-1.fw300 Límites
                     div
-                        a(href="uso_filtro-premium.html").m-2.col-11.btn.btn-sm.btn-white 
+                        a(href="uso_filtro-premium.html").m-2.col-sm-11.col-none.btn.btn-sm.btn-white 
                             h6.letra.m-1.fw300 Salud Mental 
                     div
                         a(href="").m-2.col-11.btn.btn-sm.btn-white 
@@ -119,27 +119,89 @@ div.bg-mora
                     <i class="h2 fa-solid fa-circle-chevron-right m-2"></i>
     section.bg-mora
         div.container
-            div.d-flex.p-2
-                a(href="mi-perfil.html" data-bs-toggle="modal" data-bs-target="#exampleModal").my-2.btn-filtrar.text-decoration-none.color-black.d-flex
-                    <i class="fa-solid fa-list-ul m-2 fw400 h-6"></i>
-                    h6.m-2.fw400 Filtrar contenido por
-    section.bg-mora
-        div.container
-            <form>
-                <div class="multiselect">
-                    <div class="selectBox" id="selectBox">
-                        <select>
-                            <option>Select an option</option>
+            <form class="p-2">
+                <div class="multiselect my-2 bg-total">
+                    <div class="selectBox " id="selectBox">
+                        <select class="p-1">
+                            <option>
+                                h6.m-2.fw400 Filtrar contenido por
+                            </option>
                         </select>
                         <div class="overSelect"></div>
                     </div>
                     <div id="checkboxes">
-                        <label for="one">
-                            <input type="checkbox" id="one" />First checkbox</label>
-                        <label for="two">
-                            <input type="checkbox" id="two" />Second checkbox</label>
-                        <label for="three">
-                            <input type="checkbox" id="three" />Third checkbox</label>
+                        h5.fw400.m-2.mt-3 Duración
+                        div.d-flex.justify-content-center
+                            div.col-9
+                                <label for="one">
+                                    div.d-flex.align-items-center.justify-content-between
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            div.d-flex.m-1.justify-content-center
+                                                            div.d-flex.align-items-center
+                                                                <i class="fa-regular fa-clock me-2"></i>
+                                                            div.d-flex.align-items-center
+                                                                h6.fw400.m-1 3 min
+                                        </label>
+                                        <input class="form-check-input m-2" type="checkbox" value="" id="flexCheckDefault">
+                                </label>
+                                <label for="two">
+                                    div.d-flex.align-items-center.justify-content-between
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            div.d-flex.m-1.justify-content-center
+                                                            div.d-flex.align-items-center
+                                                                <i class="fa-regular fa-clock me-2"></i>
+                                                            div.d-flex.align-items-center
+                                                                h6.fw400.m-1 5 min
+                                        </label>
+                                        <input class="form-check-input m-2" type="checkbox" value="" id="flexCheckDefault">
+                                </label>
+                                <label for="three">
+                                    div.d-flex.align-items-center.justify-content-between
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            div.d-flex.m-1.justify-content-center
+                                                            div.d-flex.align-items-center
+                                                                <i class="fa-regular fa-clock me-2"></i>
+                                                            div.d-flex.align-items-center
+                                                                h6.fw400.m-1 7 min
+                                        </label>
+                                        <input class="form-check-input m-2" type="checkbox" value="" id="flexCheckDefault">
+                                </label>
+                        h5.fw400.m-2.mt-3 Formato
+                        div.d-flex.justify-content-center.mb-3
+                            div.col-9.mb-3
+                                <label for="one">
+                                    div.d-flex.align-items-center.justify-content-between
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            div.d-flex.m-1.justify-content-center
+                                                            div.d-flex.align-items-center
+                                                                <i class="fa-regular fa-clock me-2"></i>
+                                                            div.d-flex.align-items-center
+                                                                h6.fw400.m-1 Videos
+                                        </label>
+                                        <input class="form-check-input m-2" type="checkbox" value="" id="flexCheckDefault">
+                                </label>
+                                <label for="two">
+                                    div.d-flex.align-items-center.justify-content-between
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            div.d-flex.m-1.justify-content-center
+                                                            div.d-flex.align-items-center
+                                                                <i class="fa-regular fa-clock me-2"></i>
+                                                            div.d-flex.align-items-center
+                                                                h6.fw400.m-1 Podcast
+                                        </label>
+                                        <input class="form-check-input m-2" type="checkbox" value="" id="flexCheckDefault">
+                                </label>
+                                <label for="three">
+                                    div.d-flex.align-items-center.justify-content-between
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            div.d-flex.m-1.justify-content-center
+                                                            div.d-flex.align-items-center
+                                                                <i class="fa-regular fa-clock me-2"></i>
+                                                            div.d-flex.align-items-center
+                                                                h6.fw400.m-1 Artículos
+                                        </label>
+                                        <input class="form-check-input m-2" type="checkbox" value="" id="flexCheckDefault">
+                                </label>
                     </div>
                 </div>
             </form>

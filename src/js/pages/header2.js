@@ -29,7 +29,7 @@ export class Header2 {
                       // Set to `auto` and provide item width to adjust to viewport
                       slidesToShow: '2',
                       slidesToScroll: '2',
-                      itemWidth: 150,
+                      itemWidth: 10,
                       duration: 0.25
                     }
                     },

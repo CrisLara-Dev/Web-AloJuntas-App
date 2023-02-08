@@ -571,6 +571,40 @@ figure::after {
   position: relative;
 }
 
+.figure15::after {
+  content: "";
+  position: absolute;
+  background-image: url(https://i.imgur.com/WVMtEXs.png);
+  background-repeat: no-repeat;
+  top: 1.5rem;
+  right: 20px;
+  width: 34px;
+  height: 36px;
+  z-index: 2;
+}
+
+.cajafoto15 {
+  z-index: 2;
+  position: relative;
+}
+
+.figure16::after {
+  content: "";
+  position: absolute;
+  background-image: url(https://i.imgur.com/uwbmMZB.png);
+  background-repeat: no-repeat;
+  top: 21rem;
+  right: 470px;
+  width: 81px;
+  height: 81px;
+  z-index: 2;
+}
+
+.cajafoto16 {
+  z-index: 2;
+  position: relative;
+}
+
 @media (max-width: 470px) {
   .figure14::after {
     content: "";
@@ -582,6 +616,32 @@ figure::after {
     width: 191px;
     height: 192px;
     border-radius: 50%;
+    z-index: 2;
+  }
+}
+@media (max-width: 1399px) {
+  .figure16::after {
+    content: "";
+    position: absolute;
+    background-image: url(https://i.imgur.com/uwbmMZB.png);
+    background-repeat: no-repeat;
+    top: 21rem;
+    right: 396px;
+    width: 81px;
+    height: 81px;
+    z-index: 2;
+  }
+}
+@media (max-width: 1199px) {
+  .figure16::after {
+    content: "";
+    position: absolute;
+    background-image: url(https://i.imgur.com/uwbmMZB.png);
+    background-repeat: no-repeat;
+    top: 21rem;
+    right: 329px;
+    width: 81px;
+    height: 81px;
     z-index: 2;
   }
 }
@@ -1200,7 +1260,7 @@ body {
 }
 
 .multiselect {
-  width: 200px;
+  width: 209px;
 }
 
 .selectBox {
@@ -1209,7 +1269,8 @@ body {
 
 .selectBox select {
   width: 100%;
-  font-weight: bold;
+  font-weight: 400;
+  background-color: #f9f8f3;
 }
 
 .overSelect {
@@ -1218,19 +1279,15 @@ body {
   right: 0;
   top: 0;
   bottom: 0;
+  border: 2px solid #f9f8f3;
 }
 
 #checkboxes {
   display: none;
-  border: 1px #dadada solid;
 }
 
 #checkboxes label {
   display: block;
-}
-
-#checkboxes label:hover {
-  background-color: #1e90ff;
 }
 
 .niños {
