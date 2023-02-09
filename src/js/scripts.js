@@ -1,6 +1,7 @@
 import $ from 'jquery';
 window.$ = $;
 import { Restriccion} from './pages/restriccion.js';
+import { Select2} from './pages/select2.js';
 import { Paises} from './pages/paises.js';
 import { Contra } from './pages/contra.js';
 import { Landing } from './pages/landing.js';
@@ -12,6 +13,7 @@ import { Guardadospremium } from './pages/guardados-premium.js';
 
 document.addEventListener('DOMContentLoaded',() => {
 	new Landing();
+	new Select2();
 	new Paises();
 	new Restriccion();
 	new Contra();

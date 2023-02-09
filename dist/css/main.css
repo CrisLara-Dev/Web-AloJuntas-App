@@ -23,6 +23,11 @@
   font-weight: 900;
 }
 
+.footers {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .info {
   width: 22rem;
 }

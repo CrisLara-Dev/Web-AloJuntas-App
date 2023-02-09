@@ -8,7 +8,6 @@ export class Restriccion {
     }
 
     init() {
-        console.log("hola mundo");
         window.addEventListener('load', function () {
             const vali = document.getElementsByClassName("vali");
             if (vali) {
