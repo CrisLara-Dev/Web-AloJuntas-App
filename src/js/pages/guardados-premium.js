@@ -9,15 +9,15 @@ export class Guardadospremium {
 
     init(){
       window.addEventListener('load', function(){
-        const lista3 = document.querySelector('.lista3');
+        const lista3 = document.querySelector('.lista5');
         if(lista3){
-          new Glider(document.querySelector('.lista3'),{
+          new Glider(document.querySelector('.lista5'),{
               slidesToShow:1,
               slidesToScroll:1,
               draggable: true,
               arrows: {
-                  prev: '.anterior3',
-                  next: '.siguiente3'
+                  prev: '.anterior5',
+                  next: '.siguiente5'
               },
               responsive: [
                   {

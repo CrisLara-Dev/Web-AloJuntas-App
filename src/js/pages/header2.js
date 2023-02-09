@@ -9,8 +9,6 @@ export class Header2 {
 
     init(){
         window.addEventListener('DOMContentLoaded', function(){
-          c('ee')
-
           const lista = document.querySelector('.lista');
           if(lista){
             new Glider(document.querySelector('.lista'),{
