@@ -302,6 +302,30 @@ figure::after {
   position: relative;
 }
 
+.uni {
+  position: relative;
+  z-index: 2;
+}
+
+.uni2 {
+  position: absolute;
+  z-index: 0;
+  bottom: 60px;
+  right: 105px;
+}
+
+.uni3 {
+  position: relative;
+  z-index: 2;
+}
+
+.uni4 {
+  position: absolute;
+  z-index: 0;
+  bottom: 60px;
+  right: 192px;
+}
+
 .figure2::after {
   content: "";
   position: absolute;
@@ -605,6 +629,46 @@ figure::after {
   position: relative;
 }
 
+@media (max-width: 1024px) {
+  .uni2 {
+    bottom: 28px;
+  }
+  .uni4 {
+    bottom: 28px;
+  }
+}
+@media (max-width: 1022px) {
+  .uni2 {
+    bottom: -10px;
+  }
+  .uni4 {
+    bottom: 28px;
+  }
+}
+@media (max-width: 1195px) {
+  .uni2 {
+    bottom: 28px;
+  }
+  .uni4 {
+    bottom: 28px;
+  }
+}
+@media (max-width: 1215px) {
+  .uni2 {
+    bottom: -11px;
+  }
+  .uni4 {
+    bottom: -9px;
+  }
+}
+@media (max-width: 999px) {
+  .uni2 {
+    bottom: -11px;
+  }
+  .uni4 {
+    bottom: -15px;
+  }
+}
 @media (max-width: 470px) {
   .figure14::after {
     content: "";
@@ -701,7 +765,7 @@ figure::after {
 .grupo .icono {
   position: absolute;
   margin-left: 13px;
-  top: 9px;
+  top: 10px;
   font-size: 16px;
   color: #8d757d;
 }
@@ -718,7 +782,7 @@ figure::after {
 
 @media (max-width: 767px) {
   .grupo .icono {
-    top: 17px;
+    top: 18px;
   }
 }
 @media (max-width: 1024px) {

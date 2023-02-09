@@ -34,10 +34,10 @@ export class Landing {
                     },
                     {
                       // screens greater than >= 1024px
-                        breakpoint: 1199,
+                        breakpoint: 996,
                         settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 2,
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
                             itemWidth: 150,
                             duration: 0.25
                       }
