@@ -1,3 +1,13 @@
 .navbar-vertical .navbar-nav .nav-link:after {
     content: "\f105"!important;
 }
+
+.color-table{
+    background-color: #F6F9FC;
+}
+
+.bk-default{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 32px rgba(136, 152, 170, 0.15);
+    border-radius: 6px;
+}
