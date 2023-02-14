@@ -15,3 +15,13 @@
 .color-n{
     color: white!important;
 }
+
+.form-switch .form-check-input:checked {
+    border-color: #2DCE89!important;
+    background-color: transparent!important;
+}
+
+.form-switch .form-check-input:checked:after {
+    transform: translateX(21px);
+    background-color: #2DCE89!important;
+}
