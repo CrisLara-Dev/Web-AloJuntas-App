@@ -263,11 +263,37 @@
         <div class="col-lg-12 mb-4 mb-lg-0">
           <div class="card z-index-2 h-100">
             <div class="card-header pb-0 pt-3 bg-transparent">
-              <h6 class="text-capitalize">Usuarios</h6>
+              <h6 class="text-capitalize">Categorias</h6>
               <p class="text-sm mb-0">
                 This is an example of datatable using the well known datatables.net plugin. This is a minimal setup in order to get started fast.
               </p>
             </div>
+            <!-- BODY -->
+            <div class="d-flex">
+              <p class="text-sm mb-0 ps-4 mt-4">Show</p>
+              
+              <div class="choices" data-type="select-one" tabindex="0" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-expanded="false">
+                <div class="choices__inner">
+                  <select class="form-control choices__input" name="choices-gender" id="choices-gender" hidden="" tabindex="-1" data-choice="active">
+                    <option value="10">Male</option>
+                  </select>
+                <div class="choices__list choices__list--single">
+                  <div class="choices__item choices__item--selectable" data-item="" data-id="1" data-value="Male" data-custom-properties="null" aria-selected="true">Male</div>
+                </div>
+              </div>
+              <div class="choices__list choices__list--dropdown" aria-expanded="false">
+                <input type="text" class="choices__input choices__input--cloned" autocomplete="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" aria-label="false" placeholder="">
+                <div class="choices__list" role="listbox"><div id="choices--choices-gender-item-choice-1" class="choices__item choices__item--choice choices__item--selectable is-highlighted" role="option" data-choice="" data-id="1" data-value="Female" data-select-text="Press to select" data-choice-selectable="" aria-selected="true">Female</div>
+                <div id="choices--choices-gender-item-choice-2" class="choices__item choices__item--choice is-selected choices__item--selectable" role="option" data-choice="" data-id="2" data-value="Male" data-select-text="Press to select" data-choice-selectable="">Male</div>
+              </div>
+            </div>
+          </div>
+              
+              <p class="text-sm mb-0 ps-4 mt-4">entries</p>
+            </div>
+            
+
+
             <!-- TABLE -->
             <div class="card mt-5">
               <div class="table-responsive">
