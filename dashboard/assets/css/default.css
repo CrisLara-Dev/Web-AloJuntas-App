@@ -44,3 +44,11 @@
     font-weight: 600; 
     color: #32325D;
 }
+
+.btn-t{
+    background-color: white; 
+    color: #5E72E4;
+    width: 56px;
+    height: 28px; 
+    font-size: 12px;
+}
