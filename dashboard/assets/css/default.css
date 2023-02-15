@@ -46,8 +46,8 @@
 }
 
 .btn-t{
-    background-color: white; 
-    color: #5E72E4;
+    background-color: white!important; 
+    color: #5E72E4!important;
     width: 56px;
     height: 28px; 
     font-size: 12px;
