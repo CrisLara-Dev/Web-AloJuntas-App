@@ -52,3 +52,20 @@
     height: 28px; 
     font-size: 12px;
 }
+
+.txt-n4{
+    border: #FF856A; 
+    border-style: dotted; 
+    border-radius: 10px;
+}
+
+.txt-n5{
+    font-size: 12px; 
+    color: #FF856A; 
+    font-weight: 600;
+}
+
+.txt-n6{
+    font-size: 14px; 
+    color: #32325D;
+}
