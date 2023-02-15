@@ -69,3 +69,13 @@
     font-size: 14px; 
     color: #32325D;
 }
+
+.mtx-8{
+    margin-top: -8rem;
+}
+
+@media (max-width: 1000px) {
+    .mtx-8 {
+      margin-top: 0;
+    }
+  }
