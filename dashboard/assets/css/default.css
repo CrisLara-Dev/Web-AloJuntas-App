@@ -26,3 +26,46 @@
     background-color: #5879BC!important; 
     border-radius: 4px;
 }
+
+.txt-n{
+    border-radius: 4px; 
+    background-color: #5879BC!important; 
+    font-size: 10.56px;
+}
+
+.txt-n2{
+    border-radius: 4px; 
+    background-color: #FF856A!important;  
+    font-size: 10.56px;
+}
+
+.txt-n3{
+    font-size: 14px; 
+    font-weight: 600; 
+    color: #32325D;
+}
+
+.btn-t{
+    background-color: white!important; 
+    color: #5E72E4!important;
+    width: 56px;
+    height: 28px; 
+    font-size: 12px;
+}
+
+.txt-n4{
+    border: #FF856A; 
+    border-style: dotted; 
+    border-radius: 10px;
+}
+
+.txt-n5{
+    font-size: 12px; 
+    color: #FF856A; 
+    font-weight: 600;
+}
+
+.txt-n6{
+    font-size: 14px; 
+    color: #32325D;
+}
