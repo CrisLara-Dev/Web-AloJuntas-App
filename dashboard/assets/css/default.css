@@ -26,3 +26,21 @@
     background-color: #5879BC!important; 
     border-radius: 4px;
 }
+
+.txt-n{
+    border-radius: 4px; 
+    background-color: #5879BC!important; 
+    font-size: 10.56px;
+}
+
+.txt-n2{
+    border-radius: 4px; 
+    background-color: #FF856A!important;  
+    font-size: 10.56px;
+}
+
+.txt-n3{
+    font-size: 14px; 
+    font-weight: 600; 
+    color: #32325D;
+}
