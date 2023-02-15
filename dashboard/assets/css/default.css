@@ -21,3 +21,8 @@
     transform: translateX(21px);
     background-color: #2DCE89!important;
 }
+
+.btn-new{
+    background-color: #5879BC!important; 
+    border-radius: 4px;
+}
