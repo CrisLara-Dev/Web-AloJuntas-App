@@ -86,3 +86,9 @@
     width: 100%!important;
     }
 }
+
+.btn-2{
+    width: 56px;
+    height: 28px; 
+    font-size: 12px;
+}
