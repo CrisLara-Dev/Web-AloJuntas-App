@@ -88,6 +88,14 @@
     margin-top: -8rem;
 }
 
+.pie{
+    margin-top: -16rem;
+}
+
+.tamaño{
+    height: 15vh;
+}
+
 @media (max-width: 1000px) {
     .mtx-8 {
       margin-top: 0;
