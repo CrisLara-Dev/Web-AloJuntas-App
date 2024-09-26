@@ -29,7 +29,7 @@ Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 
 ![Pantalla de Inicio](https://i.imgur.com/WeFUxbd.png)
 
-Para ver más imágenes y detalles visuales de _AloJuntas App_, haz clic en el siguiente botón:
+Para ver más imágenes de _AloJuntas App_, haz clic en el siguiente botón:
 
 [![Ver en Behance](https://img.shields.io/badge/Ver%20en%20Behance-00A0FF?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/gallery/208539235/Web-AloJuntas-App)
 
