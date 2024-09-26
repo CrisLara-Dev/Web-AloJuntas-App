@@ -2,7 +2,7 @@
 
 _AlojuntasApp_ es una plataforma web desarrollada para **Empathy Company** que acompaña a los padres en la crianza integral de sus hijos, desde la infancia hasta la adolescencia. La aplicación ofrece información valiosa organizada según la edad de los niños y los temas que más preocupan a los padres, con recomendaciones de profesionales reconocidos.
 
-Este proyecto fue parte de mi trabajo en **Empathy Company**, donde desempeñé el rol de **Desarrollador Frontend Junior** y fui responsable de maquetar el diseño proporcionado y llevarlo a la implementación en código.
+Este proyecto fue parte de mi trabajo en **Empathy Company**, donde desempeñé el rol de **Desarrollador Frontend** y fui responsable de maquetar el diseño proporcionado y llevarlo a la implementación en código.
 
 ## 🚀 Tecnologías Utilizadas
 
