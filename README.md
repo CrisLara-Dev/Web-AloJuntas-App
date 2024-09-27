@@ -21,7 +21,6 @@ Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 - **Contenido Personalizado**: Información organizada según las edades de los hijos y las preocupaciones de los padres.
 - **Recomendaciones Profesionales**: Contenido elaborado en colaboración con expertos en desarrollo infantil.
 - **Recursos y Actividades**: Propuestas de actividades que fomenten el bienestar familiar.
-- **Interfaz Amigable**: Diseño intuitivo que facilita la navegación y acceso a la información.
 
 ### 🖼️ Capturas de Pantalla
 
